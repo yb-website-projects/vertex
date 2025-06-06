@@ -1,0 +1,119 @@
+@import '@/shared/lib/styles/mixin.scss';
+
+.homeFourth {
+  padding: 165px 0;
+  background: #0c0c0c;
+  @include tablet {
+    padding: 32px 0;
+  }
+  &__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+    h2 {
+      color: #fff;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .buttons {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      @include tablet {
+        display: none;
+      }
+      button {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: #212121;
+      }
+    }
+  }
+
+  .buttonsMobile {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 48px;
+    width: 100%;
+    justify-content: center;
+    @include tablet {
+      display: flex;
+    }
+    button {
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: #212121;
+    }
+  }
+
+  &__slider {
+    position: relative;
+    @include tablet {
+      padding: 0 16px;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 200px;
+      height: 100%;
+      background: linear-gradient(270deg, rgba(12, 12, 12, 0) 0%, #0c0c0c 100%);
+      z-index: 1;
+      @include tablet {
+        display: none;
+      }
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 200px;
+      height: 100%;
+      background: linear-gradient(270deg, #0c0c0c 0%, rgba(12, 12, 12, 0) 100%);
+      z-index: 1;
+      @include tablet {
+        display: none;
+      }
+    }
+    > div {
+      position: relative;
+      z-index: 0;
+    }
+  }
+
+  .sliderInner {
+    img {
+      width: 100%;
+      height: auto;
+    }
+    h5 {
+      color: #fff;
+      margin: 48px 0 24px 0;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    p {
+      color: #b6b6b6;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}

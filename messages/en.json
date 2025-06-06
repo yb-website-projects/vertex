@@ -1,7 +1,87 @@
 {
+  "homeFourth": {
+    "slide1": {
+      "title": "Structural Advantage of a Small Fund",
+      "description": "The fund’s size enables faster execution, targeted deal access, and active oversight — benefits not typically available to larger institutional vehicles."
+    },
+    "slide2": {
+      "title": "Regulated and Globally Positioned",
+      "description": "Vertex FinCapital operates under the Singapore VCC framework and is managed by MAS-licensed XEQ Capital, providing legal clarity, investor protection, and international credibility."
+    },
+    "slide3": {
+      "title": "Aligned Profit Distribution Model",
+      "description": "Investors receive the first 12% p.a. of returns. Only after this threshold is met does the fund share in profits, ensuring investor-first economics at the structural level"
+    },
+    "slide4": {
+      "title": "Fee Discipline <br/>and Alignment",
+      "description": "The fund applies a flat 2% management fee (covering all operating expenses) and performance fees only apply above a 12% return, ensuring investor-aligned incentives."
+    },
+    "slide5": {
+      "title": "Selective <br/>Participation",
+      "description": "The investor base is intentionally capped at 20–30 parties to preserve deal quality and access discipline."
+    },
+    "title": "Why Vertex FinCapital"
+  },
   "homeHero": {
     "title": "Leverage Unique Opportunities. <br/>Create Value. Deliver Results.",
     "description": "Regulated in Singapore. Open-ended structure. <br/>Multi-asset strategy."
+  },
+  "homeLast": {
+    "title": "Investor Access & Inquiry",
+    "description": "Vertex FinCapital works exclusively with accredited investors. To request documentation or discuss participation, please submit the form below. All submissions are reviewed individually by the fund’s management team.",
+    "button": "Explore the Fund"
+  },
+  "homeSecond": {
+    "slide1": {
+      "text1": "The fund offers accredited investors access to private market opportunities across real estate, private equity, credit, venture capital, and public equities.",
+      "text2": "Combining institutional governance with boutique agility, the fund serves as a core alternative allocation for sophisticated portfolios.",
+      "title": "Vertex FinCapital is a MAS-regulated investment fund structured under Singapore’s XEQ Global Alternatives VCC.",
+      "button": "Explore the Fund"
+    },
+    "slide2": {
+      "text1": "Real estate (equity or structured debt in development-stage projects)",
+      "text2": "Private equity (payments, proptech, scalable B2B platforms)",
+      "text3": "Secured private credit (with collateral and oversight)",
+      "text4": "Public small-cap equities (value-oriented with near-term catalysts)",
+      "title": "Our key <br/>investment focus"
+    }
+  },
+  "homeThird": {
+    "title": "Investment Entry: At a Glance",
+    "item1": {
+      "title": "Target Capital Raise",
+      "value": "USD 15,000,000"
+    },
+    "item2": {
+      "title": "Planned Investor Group",
+      "value": "Up to 30 <br/>accredited investors"
+    },
+    "item3": {
+      "title": "Minimum Investment",
+      "value": "USD 200,000"
+    }
+  },
+  "footer": {
+    "links": {
+      "title1": "Fund",
+      "link1": "The Fund",
+      "link2": "Service Providers",
+      "title2": "For Investor",
+      "link3": "Investment Strategy",
+      "link4": "Investor Information",
+      "title3": "Legal",
+      "link5": "News & Updates",
+      "link6": "Contact Us",
+      "link7": "Privacy Policy",
+      "link8": "Cookie Policy",
+      "link9": "Terms of Use",
+      "link10": "Regulatory Documents"
+    },
+    "companyInfo": "A Regulated Fund Investing in High-Impact Opportunities.",
+    "registeredAddress": "Registered address:",
+    "registeredNumber": "Registered number:",
+    "officeAddress": "Office address:",
+    "copyright": "Vertex FinCapital. All rights reserved. A sub-fund of XEQ Global Alternatives VCC, Singapore. Managed by XEQ Capital, licensed by the Monetary Authority of Singapore."
   },
   "header": {
     "theFund": "The Fund",

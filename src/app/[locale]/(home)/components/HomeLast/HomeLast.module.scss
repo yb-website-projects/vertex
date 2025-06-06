@@ -1,0 +1,67 @@
+@import '@/shared/lib/styles/mixin.scss';
+
+.homeLast {
+  padding: 165px 0;
+  @include tablet {
+    padding: 56px 0;
+  }
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    border: 1px solid #e9e9e9;
+    background: #f6f7f9;
+    @include tablet {
+      flex-direction: column;
+      gap: 48px;
+      overflow: hidden;
+      align-items: flex-end;
+    }
+    .left {
+      width: 50%;
+      padding: 24px 0 24px 64px;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 48px;
+      @include tablet {
+        width: 100%;
+        padding: 24px;
+        align-items: center;
+      }
+      > div {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        h2 {
+          color: #000;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          @include tablet {
+            text-align: center;
+          }
+        }
+        p {
+          color: #636363;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          @include tablet {
+            text-align: center;
+          }
+        }
+      }
+    }
+    img {
+      width: calc(50% - 48px);
+      height: auto;
+      @include tablet {
+        width: 115%;
+        max-width: 115%;
+      }
+    }
+  }
+}

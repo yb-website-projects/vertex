@@ -42,7 +42,7 @@ body {
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: #0C0C0C;
+    background-color: #0c0c0c;
     border-radius: 100px;
   }
 }
@@ -79,7 +79,8 @@ img {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--font-lora), sans-serif;
 }
 
