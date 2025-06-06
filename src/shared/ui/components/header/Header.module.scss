@@ -9,6 +9,12 @@
   @include tablet {
     padding: 16px 0;
   }
+  &.scrolled {
+    background: #fff;
+  }
+  &.mobileMenuOpen {
+    background: #0c0c0c;
+  }
   .inner {
     display: flex;
     justify-content: space-between;
@@ -29,6 +35,14 @@
             font-style: normal;
             font-weight: 500;
             line-height: normal;
+            &.black {
+              color: #000;
+              svg {
+                path {
+                  fill: #000;
+                }
+              }
+            }
             svg {
               transition: all 0.3s ease;
               transform: rotate(0deg);
@@ -98,6 +112,20 @@
       display: none;
       @include tablet {
         display: flex;
+      }
+      &.black {
+        svg {
+          path {
+            fill: #000;
+          }
+        }
+      }
+      &.open {
+        svg {
+          path {
+            fill: #fff;
+          }
+        }
       }
     }
   }
