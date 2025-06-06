@@ -1,0 +1,201 @@
+@import '@/shared/lib/styles/mixin.scss';
+
+.header {
+  padding: 24px 0;
+  background: #0c0c0c;
+  position: sticky;
+  top: 0;
+  z-index: 101;
+  @include tablet {
+    padding: 16px 0;
+  }
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav {
+      @include tablet {
+        display: none;
+      }
+      &__list {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        li {
+          position: relative;
+          a {
+            color: #fff;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            svg {
+              transition: all 0.3s ease;
+              transform: rotate(0deg);
+            }
+            &.open {
+              svg {
+                transform: rotate(180deg);
+              }
+            }
+          }
+          .submenu {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #242424;
+            background: #181818;
+            width: 174px;
+            transition: all 0.3s ease;
+            opacity: 0;
+            visibility: hidden;
+            top: 100%;
+            pointer-events: none;
+            &.open {
+              opacity: 1;
+              visibility: visible;
+              top: calc(100% + 10px);
+              pointer-events: auto;
+            }
+            li {
+              width: 174px;
+              a {
+                box-sizing: border-box;
+                width: 100%;
+                display: flex;
+                padding: 16px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                color: #fff;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                &:hover {
+                  background: rgba(255, 255, 255, 0.05);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    > a {
+      &:last-child {
+        @include tablet {
+          display: none;
+        }
+      }
+    }
+    .burger {
+      display: none;
+      @include tablet {
+        display: flex;
+      }
+    }
+  }
+}
+
+.mobileMenu {
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #242424;
+  background: #0c0c0c;
+  z-index: 100;
+  transition: all 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+  padding: 96px 24px 24px 24px;
+  &.open {
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+  }
+  .nav {
+    margin-bottom: 24px;
+    > ul {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      li {
+        a {
+          display: flex;
+          padding: 16px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          align-self: stretch;
+          display: flex;
+          padding: 16px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          align-self: stretch;
+          color: #fff;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          background: rgba(255, 255, 255, 0.05);
+          svg {
+            transform: rotate(0deg);
+            transition: all 0.3s ease;
+          }
+          &.open {
+            svg {
+              transform: rotate(180deg);
+            }
+          }
+        }
+        .submenu {
+          display: none;
+          flex-direction: column;
+          gap: 12px;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          transition: all 0.3s ease;
+          margin: 12px 0;
+          &.open {
+            display: flex;
+          }
+          li {
+            width: 100%;
+            a {
+              box-sizing: border-box;
+              width: 100%;
+              display: flex;
+              padding: 16px;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+              align-self: stretch;
+              display: flex;
+              padding: 16px;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+              align-self: stretch;
+              color: #fff;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+              background: rgba(255, 255, 255, 0.05);
+            }
+          }
+        }
+      }
+    }
+  }
+}
