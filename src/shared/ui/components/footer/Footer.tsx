@@ -123,8 +123,8 @@ export const Footer = () => {
             </div>
           </div>
           <div className={styles.footer__col2}>
-            {links.map((link) => (
-              <div className={styles.footer__col2__row} key={link.title}>
+            {links.map((link, index) => (
+              <div key={index}>
                 <h5>{link.title}</h5>
                 <nav>
                   {link.links.map((link) => (
