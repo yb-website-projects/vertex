@@ -10,12 +10,14 @@ export const Button = ({
   color = 'black',
   buttonType = 'button',
   arrow = false,
+  onClick,
 }: {
   url?: string;
   children: React.ReactNode;
   color?: 'black' | 'white';
   buttonType?: 'button' | 'link';
   arrow?: boolean;
+  onClick?: () => void;
 }) => {
   if (buttonType === 'link') {
     return (
@@ -26,7 +28,11 @@ export const Button = ({
     );
   } else {
     return (
-      <button type={buttonType} className={`${styles.button} ${styles[`button--${color}`]}`}>
+      <button
+        type={buttonType}
+        className={`${styles.button} ${styles[`button--${color}`]}`}
+        onClick={onClick}
+      >
         {children}
         {arrow && <ButtonArrow />}
       </button>

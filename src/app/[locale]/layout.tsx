@@ -8,6 +8,8 @@ import { Footer, Header } from '@/shared/ui/components';
 import '@/shared/lib/styles/null.scss';
 import '@/shared/lib/styles/base.scss';
 
+import { FundAccessModal } from '@/featured/fundAccessRequest';
+
 const lora = Lora({
   variable: '--font-lora',
   subsets: ['latin'],
@@ -39,6 +41,7 @@ export default async function RootLayout({
           <Header />
           {children}
           <Footer />
+          <FundAccessModal />
         </NextIntlClientProvider>
       </body>
     </html>

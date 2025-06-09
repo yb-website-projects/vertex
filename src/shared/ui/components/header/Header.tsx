@@ -12,11 +12,15 @@ import { Button } from '@/shared/ui/kit';
 
 import styles from './Header.module.scss';
 
+import { useFundAccessStore } from '@/featured/fundAccessRequest/store/fundAccessStore';
+
 export const Header = () => {
   const [isSubmenuOpen, setIsSubmenuOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
   const [isScrolled, setIsScrolled] = useState(false);
+
+  const { open } = useFundAccessStore();
 
   const t = useTranslations('header');
 
@@ -34,6 +38,10 @@ export const Header = () => {
       }
     });
   }, []);
+
+  const handleContactUs = () => {
+    open();
+  };
 
   return (
     <>
@@ -105,7 +113,11 @@ export const Header = () => {
                 </li>
               </ul>
             </nav>
-            <Button url="/contact" color={isScrolled ? 'black' : 'white'} buttonType="link">
+            <Button
+              color={isScrolled ? 'black' : 'white'}
+              buttonType="button"
+              onClick={() => handleContactUs()}
+            >
               {t('contactUs', { fallback: 'Contact Us' })}
             </Button>
           </div>
