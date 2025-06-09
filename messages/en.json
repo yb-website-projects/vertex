@@ -61,6 +61,44 @@
       "value": "USD 200,000"
     }
   },
+  "explore": {
+    "title1": "Learn how we allocate <br/>capital and manage risk",
+    "buttonText1": "Investment Strategy",
+    "title2": "Understand eligibility, <br/>subscription steps, and reporting",
+    "buttonText2": "Investor Information",
+    "title": "Explore the Fund Further"
+  },
+  "fundHero": {
+    "title": "Vertex FinCapital",
+    "description": "Singapore-domiciled. Institutionally managed. Focused on results."
+  },
+  "fundPositioning": {
+    "title": "Fund Positioning & Objectives",
+    "description": "Vertex FinCapital serves as a core alternative allocation for accredited investors, combining boutique agility with institutional standards. The fund is limited to 20–30 participants and follows a high-conviction, access-driven strategy focused on private market opportunities.",
+    "button": "Explore the Fund"
+  },
+  "identityRegulatoryFramework": {
+    "title": "Identity & Regulatory Framework",
+    "item1": {
+      "title": "Fund <br/>Structure",
+      "description": "Vertex is a Singapore-domiciled, open-ended fund, which is managed by Vertex FinCapital Pte. Ltd. (“Vertex”), a Singapore-registered fund manager."
+    },
+    "item2": {
+      "title": "Regulatory <br/>Status",
+      "description": "The fund is licensed and regulated by the Monetary Authority of Singapore (MAS)."
+    },
+    "item3": {
+      "title": "Management &<br/>Framework",
+      "description": "Managed by XEQ Capital, promoted by YB Advisors. VCC structure provides asset protection, tax efficiency, and governance."
+    }
+  },
+  "keyFeatures": {
+    "title1": "Performance fees apply only after a 12% return",
+    "title2": "Direct contact — no portals or intermediaries.",
+    "title3": "Fast execution with active deal oversight.",
+    "title4": "Access is limited to 20–30 investors.",
+    "title": "Key Features / Differentiators"
+  },
   "fundAccessRequest": {
     "title": "Fund Access Request"
   },

@@ -1,0 +1,80 @@
+@import '@/shared/lib/styles/mixin.scss';
+
+.fundPositioning {
+  background: #181818;
+  padding: 165px 0;
+  @include tablet {
+    padding: 56px 0;
+  }
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    @include tablet {
+      flex-direction: column;
+    }
+    .left {
+      width: calc(50% - 32px);
+      @include tablet {
+        width: 100%;
+      }
+      h2 {
+        color: #fff;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 24px;
+      }
+      p {
+        color: #b6b6b6;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 64px;
+      }
+    }
+    .right {
+      width: calc(50% - 32px);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      @include tablet {
+        width: 100%;
+      }
+      img {
+        object-fit: cover;
+        &:nth-child(1) {
+          width: calc(70% - 12px);
+          height: 270px;
+          @include tablet {
+            width: 100%;
+            order: 1;
+          }
+        }
+        &:nth-child(2) {
+          width: calc(30% - 12px);
+          @include tablet {
+            width: calc(50% - 12px);
+            order: 3;
+          }
+        }
+        &:nth-child(3) {
+          width: calc(30% - 12px);
+          @include tablet {
+            width: calc(50% - 12px);
+            order: 4;
+          }
+        }
+        &:nth-child(4) {
+          width: calc(70% - 12px);
+          @include tablet {
+            width: 100%;
+            order: 2;
+          }
+        }
+      }
+    }
+  }
+}

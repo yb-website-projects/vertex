@@ -50,7 +50,7 @@ export const Header = () => {
             <nav className={styles.nav}>
               <ul className={styles.nav__list}>
                 <li className={styles.nav__item}>
-                  <Link href="#">{t('theFund', { fallback: 'The Fund' })}</Link>
+                  <Link href="/the-fund">{t('theFund', { fallback: 'The Fund' })}</Link>
                 </li>
                 <li className={styles.nav__item}>
                   <Link href="#">
@@ -97,7 +97,7 @@ export const Header = () => {
         <nav className={styles.nav}>
           <ul className={styles.nav__list}>
             <li className={styles.nav__item}>
-              <Link href="#">{t('theFund', { fallback: 'The Fund' })}</Link>
+              <Link href="/the-fund">{t('theFund', { fallback: 'The Fund' })}</Link>
             </li>
             <li className={styles.nav__item}>
               <Link href="#">{t('investmentStrategy', { fallback: 'Investment Strategy' })}</Link>
