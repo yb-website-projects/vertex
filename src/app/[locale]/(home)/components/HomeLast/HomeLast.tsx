@@ -36,7 +36,7 @@ export const HomeLast = () => {
                 })}
               </p>
             </div>
-            <Button buttonType="link" url="#" arrow>
+            <Button buttonType="link" url="#" arrow color="white">
               {t('button', {
                 fallback: 'Explore the Fund',
               })}

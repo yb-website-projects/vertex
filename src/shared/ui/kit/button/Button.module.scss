@@ -11,6 +11,11 @@
   &.button--white {
     background: #fff;
     color: #0c0c0c;
+    svg {
+      path {
+        fill: #0c0c0c;
+      }
+    }
   }
   &.button--black {
     background: #000;

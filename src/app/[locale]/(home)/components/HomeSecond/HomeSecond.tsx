@@ -67,7 +67,7 @@ export const HomeSecond = () => {
                           'Vertex FinCapital is a MAS-regulated investment fund structured under Singapore’s XEQ Global Alternatives VCC.',
                       })}
                     </h3>
-                    <Button buttonType="link" url="#" arrow>
+                    <Button buttonType="link" url="#" arrow color="white">
                       {t('slide1.button', {
                         fallback: 'Explore the Fund',
                       })}
@@ -136,7 +136,7 @@ export const HomeSecond = () => {
                         }),
                       }}
                     />
-                    <Button buttonType="link" url="#" arrow>
+                    <Button buttonType="link" url="#" arrow color="white">
                       {t('slide1.button', {
                         fallback: 'Explore the Fund',
                       })}

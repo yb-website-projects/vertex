@@ -10,7 +10,7 @@
     padding: 16px 0;
   }
   &.scrolled {
-    background: #fff;
+    background: #0c0c0c;
   }
   &.mobileMenuOpen {
     background: #0c0c0c;
@@ -101,7 +101,8 @@
         }
       }
     }
-    > a {
+    > a,
+    button {
       &:last-child {
         @include tablet {
           display: none;
@@ -148,6 +149,9 @@
     top: 0;
     opacity: 1;
     visibility: visible;
+  }
+  button {
+    width: 100%;
   }
   .nav {
     margin-bottom: 24px;

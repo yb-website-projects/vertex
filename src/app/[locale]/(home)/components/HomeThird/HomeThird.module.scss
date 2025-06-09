@@ -2,11 +2,12 @@
 
 .homeThird {
   padding: 165px 0;
+  background: #0c0c0c;
   @include tablet {
     padding: 56px 0;
   }
   h2 {
-    color: #0c0c0c;
+    color: #fff;
     text-align: center;
     font-size: 32px;
     font-style: normal;
@@ -31,12 +32,12 @@
       align-items: center;
       gap: 12px;
       align-self: stretch;
-      border: 1px solid #E9E9E9;
+      border: 1px solid #242424;
       @include tablet {
         width: 100%;
       }
       p {
-        color: #636363;
+        color: #b6b6b6;
         text-align: center;
         font-size: 16px;
         font-style: normal;
@@ -44,7 +45,7 @@
         line-height: normal;
       }
       span {
-        color: #0c0c0c;
+        color: #fff;
         text-align: center;
         font-size: 24px;
         font-style: normal;

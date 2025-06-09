@@ -18,7 +18,6 @@ export const Header = () => {
   const [isSubmenuOpen, setIsSubmenuOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
-  const [isScrolled, setIsScrolled] = useState(false);
 
   const { open } = useFundAccessStore();
 
@@ -29,40 +28,21 @@ export const Header = () => {
     setIsSubmenuOpen(false);
   }, [pathname]);
 
-  useEffect(() => {
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 100) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    });
-  }, []);
-
   const handleContactUs = () => {
+    setIsMobileMenuOpen(false);
     open();
   };
 
   return (
     <>
-      <header
-        className={`${styles.header} ${isScrolled ? styles.scrolled : ''} ${isMobileMenuOpen ? styles.mobileMenuOpen : ''}`}
-      >
+      <header className={`${styles.header} ${isMobileMenuOpen ? styles.mobileMenuOpen : ''}`}>
         <div className={'_container'}>
           <div className={styles.inner}>
             <Link href="/" className={styles.logo}>
-              {isScrolled ? (
-                isMobileMenuOpen ? (
-                  <Image src="/images/logo.svg" alt="logo" width={100} height={40} />
-                ) : (
-                  <Image src="/images/logo-black.svg" alt="logo" width={100} height={40} />
-                )
-              ) : (
-                <Image src="/images/logo.svg" alt="logo" width={100} height={40} />
-              )}
+              <Image src="/images/logo.svg" alt="logo" width={100} height={40} />
             </Link>
             <button
-              className={`${styles.burger} ${isMobileMenuOpen ? styles.open : ''} ${isScrolled ? styles.black : ''}`}
+              className={`${styles.burger} ${isMobileMenuOpen ? styles.open : ''}`}
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               <Burger />
@@ -70,42 +50,36 @@ export const Header = () => {
             <nav className={styles.nav}>
               <ul className={styles.nav__list}>
                 <li className={styles.nav__item}>
-                  <Link className={`${isScrolled ? styles.black : ''}`} href="#">
-                    {t('theFund', { fallback: 'The Fund' })}
-                  </Link>
+                  <Link href="#">{t('theFund', { fallback: 'The Fund' })}</Link>
                 </li>
                 <li className={styles.nav__item}>
-                  <Link className={`${isScrolled ? styles.black : ''}`} href="#">
+                  <Link href="#">
                     {t('investmentStrategy', { fallback: 'Investment Strategy' })}
                   </Link>
                 </li>
                 <li className={styles.nav__item}>
-                  <Link className={`${isScrolled ? styles.black : ''}`} href="#">
+                  <Link href="#">
                     {t('investorInformation', { fallback: 'Investor Information' })}
                   </Link>
                 </li>
                 <li className={styles.nav__item}>
-                  <Link className={`${isScrolled ? styles.black : ''}`} href="#">
-                    {t('serviceProviders', { fallback: 'Service Providers' })}
-                  </Link>
+                  <Link href="#">{t('serviceProviders', { fallback: 'Service Providers' })}</Link>
                 </li>
                 <li className={styles.nav__item}>
                   <Link
                     href="#"
                     onClick={() => setIsSubmenuOpen(!isSubmenuOpen)}
-                    className={`${isSubmenuOpen ? styles.open : ''} ${isScrolled ? styles.black : ''}`}
+                    className={`${isSubmenuOpen ? styles.open : ''}`}
                   >
                     {t('menu', { fallback: 'Menu' })}
                     <ChevronDown />
                   </Link>
                   <ul className={`${styles.submenu} ${isSubmenuOpen ? styles.open : ''}`}>
                     <li>
-                      <Link className={`${isScrolled ? styles.black : ''}`} href="#">
-                        {t('newsAndUpdates', { fallback: 'News & Updates' })}
-                      </Link>
+                      <Link href="#">{t('newsAndUpdates', { fallback: 'News & Updates' })}</Link>
                     </li>
                     <li>
-                      <Link className={`${isScrolled ? styles.black : ''}`} href="#">
+                      <Link href="#">
                         {t('legalAndCompliance', { fallback: 'Legal & Compliance' })}
                       </Link>
                     </li>
@@ -113,11 +87,7 @@ export const Header = () => {
                 </li>
               </ul>
             </nav>
-            <Button
-              color={isScrolled ? 'black' : 'white'}
-              buttonType="button"
-              onClick={() => handleContactUs()}
-            >
+            <Button color="white" buttonType="button" onClick={() => handleContactUs()}>
               {t('contactUs', { fallback: 'Contact Us' })}
             </Button>
           </div>
@@ -160,7 +130,7 @@ export const Header = () => {
             </li>
           </ul>
         </nav>
-        <Button url="/contact" color="white" buttonType="link">
+        <Button color="white" buttonType="button" onClick={() => handleContactUs()}>
           {t('contactUs', { fallback: 'Contact Us' })}
         </Button>
       </div>

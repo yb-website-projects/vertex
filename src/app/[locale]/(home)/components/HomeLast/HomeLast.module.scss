@@ -2,6 +2,7 @@
 
 .homeLast {
   padding: 165px 0;
+  background: #0c0c0c;
   @include tablet {
     padding: 56px 0;
   }
@@ -9,8 +10,9 @@
     display: flex;
     align-items: center;
     gap: 48px;
-    border: 1px solid #e9e9e9;
-    background: #f6f7f9;
+    border: 1px solid #242424;
+
+    background: #181818;
     @include tablet {
       flex-direction: column;
       gap: 48px;
@@ -34,7 +36,7 @@
         flex-direction: column;
         gap: 24px;
         h2 {
-          color: #000;
+          color: #fff;
           font-size: 32px;
           font-style: normal;
           font-weight: 400;
@@ -44,7 +46,7 @@
           }
         }
         p {
-          color: #636363;
+          color: #B6B6B6;
           font-size: 16px;
           font-style: normal;
           font-weight: 400;
