@@ -1,16 +1,19 @@
 import { type Control, Controller } from 'react-hook-form';
 import Select, { type StylesConfig } from 'react-select';
+import countryList from 'react-select-country-list';
+
+import { excludedCountries } from '@/shared/lib/helpers/excludedCountries';
 
 import { type FundAccessFormValues } from '../../schema/fundAccessSchema';
 import styles from '../FundAccessForm/FundAccessForm.module.scss';
 
 type CountryOption = { value: string; label: string };
 
-const countryOptions: CountryOption[] = [
-  { value: 'us', label: 'United States' },
-  { value: 'de', label: 'Germany' },
-  { value: 'fr', label: 'France' },
-];
+console.log(countryList().getData());
+
+const countryOptions: CountryOption[] = countryList()
+  .getData()
+  .filter((country) => !excludedCountries.includes(country.value.toLowerCase()));
 
 type CountrySelectProps = {
   control: Control<FundAccessFormValues>;
