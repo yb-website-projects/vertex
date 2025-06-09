@@ -61,6 +61,10 @@
       "value": "USD 200,000"
     }
   },
+  "investmentStrategyHero": {
+    "title": "Strategy Overview",
+    "description": "Give investors immediate clarity on how capital is deployed."
+  },
   "explore": {
     "title1": "Learn how we allocate <br/>capital and manage risk",
     "buttonText1": "Investment Strategy",

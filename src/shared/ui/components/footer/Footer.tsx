@@ -19,7 +19,7 @@ export const Footer = () => {
       links: [
         {
           title: t('links.link1', { fallback: 'The Fund' }),
-          url: '#',
+          url: '/the-fund',
         },
         {
           title: t('links.link2', { fallback: 'Service Providers' }),
@@ -32,7 +32,7 @@ export const Footer = () => {
       links: [
         {
           title: t('links.link3', { fallback: 'Investment Strategy' }),
-          url: '#',
+          url: '/investment-strategy',
         },
         {
           title: t('links.link4', { fallback: 'Investor Information' }),
