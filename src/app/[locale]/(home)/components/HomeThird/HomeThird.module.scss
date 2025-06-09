@@ -1,10 +1,15 @@
 @import '@/shared/lib/styles/mixin.scss';
 
 .homeThird {
-  padding: 165px 0;
-  background: #0c0c0c;
-  @include tablet {
-    padding: 56px 0;
+  background: #181818;
+  padding: 16px;
+  &__inner {
+    background: #0c0c0c;
+    padding: 165px 24px;
+
+    @include tablet {
+      padding: 56px 8px;
+    }
   }
   h2 {
     color: #fff;
