@@ -3,7 +3,7 @@ import { Inter, Lora } from 'next/font/google';
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 
-import { Footer, Header } from '@/shared/ui/components';
+import { Footer, Header, Preloader } from '@/shared/ui/components';
 
 import '@/shared/lib/styles/null.scss';
 import '@/shared/lib/styles/base.scss';
@@ -23,6 +23,20 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Vertex',
   description: 'Vertex',
+  icons: [
+    {
+      rel: 'icon',
+      type: 'image/x-icon',
+      url: '/favicon.ico',
+      media: '(prefers-color-scheme: light)',
+    },
+    {
+      rel: 'icon',
+      type: 'image/x-icon',
+      url: '/favicon-white.ico',
+      media: '(prefers-color-scheme: dark)',
+    },
+  ],
 };
 
 export default async function RootLayout({
@@ -42,6 +56,7 @@ export default async function RootLayout({
           {children}
           <Footer />
           <FundAccessModal />
+          <Preloader />
         </NextIntlClientProvider>
       </body>
     </html>
