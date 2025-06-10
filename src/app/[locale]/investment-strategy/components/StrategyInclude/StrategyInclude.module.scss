@@ -1,0 +1,61 @@
+@import '@/shared/lib/styles/mixin.scss';
+
+.strategyInclude {
+  background: #181818;
+  padding: 16px;
+  &__inner {
+    padding: 165px 0;
+    background: #0c0c0c;
+    @include tablet {
+      padding: 56px 0;
+    }
+  }
+  &__body {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    @include tablet {
+      flex-direction: column;
+    }
+    img {
+      width: calc(50% - 24px);
+      height: 400px;
+      object-fit: cover;
+      @include tablet {
+        height: 326px;
+      }
+      @include tablet {
+        width: 100%;
+      }
+    }
+    > div {
+      width: calc(50% - 24px);
+      @include tablet {
+        width: 100%;
+      }
+      h2 {
+        color: #fff;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 48px;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        list-style: square;
+        padding-left: 20px;
+        li {
+          list-style: square;
+          color: #fff;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}

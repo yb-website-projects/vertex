@@ -1,8 +1,10 @@
-import { Explore } from './components/Explore/Explore';
-import { FundHero } from './components/FundHero/FundHero';
-import { FundPositioning } from './components/FundPositioning/FundPositioning';
-import { IdentityRegulatoryFramework } from './components/IdentityRegulatoryFramework/IdentityRegulatoryFramework';
-import { KeyFeatures } from './components/KeyFeatures/KeyFeatures';
+import {
+  Explore,
+  FundHero,
+  FundPositioning,
+  IdentityRegulatoryFramework,
+  KeyFeatures,
+} from './components';
 
 export default function TheFund() {
   return (

@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl';
 
 import { fadeInUp } from '@/shared/lib/helpers/animations';
 
-import styles from './HomeHero.module.scss';
+import styles from './InvestmentStrategyHero.module.scss';
 
 export const InvestmentStrategyHero = () => {
   const t = useTranslations('investmentStrategyHero');
