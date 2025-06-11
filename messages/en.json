@@ -155,6 +155,21 @@
     "subtitle": "Present as a visual allocation breakdown or clean list",
     "note": "Note: Add a sentence stating rebalancing occurs quarterly or as needed, <br/>with a max 50% NAV cap per asset class"
   },
+  "servicePartners": {
+    "title": "Service Partners",
+    "description": "Vertex FinCapital works with a select group of established service providers, each fulfilling a critical role in the fund’s legal, operational, and regulatory infrastructure. From administration and custody to audit, compliance, and tax advisory, these partners ensure that every aspect of the fund operates with institutional precision and transparency."
+  },
+  "serviceProvidersHero": {
+    "title": "Service Providers",
+    "description": "Specialist Institutions. Independent Oversight. Institutional-Grade Operations."
+  },
+  "serviceProviders": {
+    "cta": {
+      "title": "Ready to Join Vertex FinCapital?",
+      "text": "If you meet the eligibility criteria and want to explore participation, our team can guide you through the next steps. Whether you have a question or are ready to move forward, we support your process.",
+      "buttonText": "Request Access"
+    }
+  },
   "explore": {
     "title1": "Learn how we allocate <br/>capital and manage risk",
     "buttonText1": "Investment Strategy",

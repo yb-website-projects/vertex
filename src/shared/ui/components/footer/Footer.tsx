@@ -23,7 +23,7 @@ export const Footer = () => {
         },
         {
           title: t('links.link2', { fallback: 'Service Providers' }),
-          url: '#',
+          url: '/service-providers',
         },
       ],
     },

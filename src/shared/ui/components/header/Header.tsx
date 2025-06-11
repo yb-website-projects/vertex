@@ -63,7 +63,9 @@ export const Header = () => {
                   </Link>
                 </li>
                 <li className={styles.nav__item}>
-                  <Link href="#">{t('serviceProviders', { fallback: 'Service Providers' })}</Link>
+                  <Link href="/service-providers">
+                    {t('serviceProviders', { fallback: 'Service Providers' })}
+                  </Link>
                 </li>
                 <li className={styles.nav__item}>
                   <Link
@@ -108,7 +110,9 @@ export const Header = () => {
               <Link href="#">{t('investorInformation', { fallback: 'Investor Information' })}</Link>
             </li>
             <li className={styles.nav__item}>
-              <Link href="#">{t('serviceProviders', { fallback: 'Service Providers' })}</Link>
+              <Link href="/service-providers">
+                {t('serviceProviders', { fallback: 'Service Providers' })}
+              </Link>
             </li>
             <li className={styles.nav__item}>
               <Link

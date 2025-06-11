@@ -1,0 +1,61 @@
+@import '@/shared/lib/styles/mixin.scss';
+
+.ctaBlock {
+  background-color: #0c0c0c;
+  padding: 160px 0;
+  position: relative;
+  @include tablet {
+    padding: 24px 8px;
+  }
+
+  &__content {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 80px;
+    @include tablet {
+      padding: 24px;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(12, 12, 12, 0.9);
+      z-index: 1;
+    }
+    h2 {
+      color: #fff;
+      text-align: center;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      position: relative;
+      z-index: 2;
+    }
+    p {
+      margin: 12px 0 48px 0;
+      color: #b6b6b6;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      position: relative;
+      z-index: 2;
+    }
+    a,
+    button {
+      position: relative;
+      z-index: 2;
+    }
+  }
+}
