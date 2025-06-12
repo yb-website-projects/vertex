@@ -9,8 +9,16 @@ import { Button } from '@/shared/ui/kit';
 
 import styles from './HomeLast.module.scss';
 
+import { useFundAccessStore } from '@/featured/fundAccessRequest/store/fundAccessStore';
+
 export const HomeLast = () => {
   const t = useTranslations('homeLast');
+
+  const { open } = useFundAccessStore();
+
+  const handleContactUs = () => {
+    open();
+  };
 
   return (
     <section className={styles.homeLast}>
@@ -36,9 +44,9 @@ export const HomeLast = () => {
                 })}
               </p>
             </div>
-            <Button buttonType="link" url="#" arrow color="white">
+            <Button buttonType="button" arrow color="white" onClick={handleContactUs}>
               {t('button', {
-                fallback: 'Explore the Fund',
+                fallback: 'Request',
               })}
             </Button>
           </div>

@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
+    "@react-google-maps/api": "^2.20.6",
     "@sendgrid/mail": "^8.1.5",
     "framer-motion": "^12.16.0",
     "fs": "^0.0.1-security",

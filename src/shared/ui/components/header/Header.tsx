@@ -89,7 +89,7 @@ export const Header = () => {
                 </li>
               </ul>
             </nav>
-            <Button color="white" buttonType="button" onClick={() => handleContactUs()}>
+            <Button color="white" buttonType="link" url="/contact-us">
               {t('contactUs', { fallback: 'Contact Us' })}
             </Button>
           </div>

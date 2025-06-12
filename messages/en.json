@@ -29,7 +29,7 @@
   "homeLast": {
     "title": "Investor Access & Inquiry",
     "description": "Vertex FinCapital works exclusively with accredited investors. To request documentation or discuss participation, please submit the form below. All submissions are reviewed individually by the fund’s management team.",
-    "button": "Explore the Fund"
+    "button": "Request"
   },
   "homeSecond": {
     "slide1": {
@@ -86,27 +86,30 @@
   "geographicDiversification": {
     "item1": {
       "title": "Singapore & Southeast Asia",
-      "description": "Tech growth, real estate corridors, early-stage fintech"
+      "description": "Tech innovation, real estate growth corridors, and early-stage fintech opportunities."
     },
     "item2": {
       "title": "Israel",
-      "description": "Cybersecurity, SaaS, digital payments"
+      "description": "Cybersecurity, B2B SaaS platforms, and digital payment solutions."
     },
     "item3": {
       "title": "Europe (incl. UK)",
-      "description": "Proptech, private credit, real estate"
+      "description": "Proptech, stable private credit markets, and real estate development."
     },
     "item4": {
       "title": "North America",
-      "description": "Growth equity, pre-IPO VC"
+      "description": "Growth equity investments and pre-IPO venture capital participation."
     },
     "item5": {
       "title": "UAE/Dubai",
-      "description": "Real estate (hospitality/logistics), credit with yield premiums"
+      "description": "Hospitality and logistics-linked real estate, plus high-yield credit opportunities."
     },
     "title": "Geographic Diversification",
-    "subtitle": "List focus regions and their rationale",
-    "note": "Include one sentence about geo-risk filters: rule of law,  <br/>FX exposure, capital controls."
+    "note1": "Risk Mitigation",
+    "note2": "All investments undergo",
+    "note3": "geo-risk evaluations",
+    "note4": "based on rule of law,",
+    "note5": "FX exposure, and capital controls, ensuring stability and governance."
   },
   "investmentStrategyHero": {
     "title": "Investment Strategy",
@@ -118,19 +121,18 @@
       "description": "Secured lending and senior debt structures minimize downside risk and enhance capital protection."
     },
     "item2": {
-      "title": "Private Equity",
-      "description": "Expansion-stage follow-on investments. Focus on payments, asset-light real estate platforms, and scalable B2B models."
+      "title": "Diversified Exposure",
+      "description": "Investments span multiple sectors and jurisdictions, reducing concentration risk."
     },
     "item3": {
-      "title": "Private Credit",
-      "description": "Secured lending to mid-market firms. Yields of 8–20% p.a., collateralized by property, receivables, or guarantees. Includes board rights, covenants, oversight."
+      "title": "Conservative Valuations",
+      "description": "Each asset undergoes peer benchmarking and strict valuation controls to ensure pricing discipline."
     },
     "item4": {
-      "title": "Venture Capital",
-      "description": "Direct or syndicated exposure to early-stage fintech, proptech, and data infra startups. Targets asymmetric upside."
+      "title": "Dynamic Portfolio Oversight",
+      "description": "Quarterly rebalancing ensures adaptability, with no more than 50% of NAV allocated to any single asset class."
     },
-    "title": "Risk Management Approach",
-    "subtitle": "Dynamic private market investment strategy"
+    "title": "Risk Management Approach"
   },
   "strategicFlexibility": {
     "title": "Strategic Flexibility",
