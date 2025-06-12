@@ -5,19 +5,11 @@ import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 
 import { fadeInUp } from '@/shared/lib/helpers/animations';
-import { Button } from '@/shared/ui/kit/button/Button';
 
 import styles from './FundPositioning.module.scss';
 
-import { useFundAccessStore } from '@/featured/fundAccessRequest/store/fundAccessStore';
-
 export const FundPositioning = () => {
   const t = useTranslations('fundPositioning');
-  const { open } = useFundAccessStore();
-
-  const handleContactUs = () => {
-    open();
-  };
 
   return (
     <section className={styles.fundPositioning}>
@@ -43,9 +35,6 @@ export const FundPositioning = () => {
                 }),
               }}
             />
-            <Button buttonType="button" color="white" arrow onClick={handleContactUs}>
-              {t('button', { fallback: 'Explore the Fund' })}
-            </Button>
           </motion.div>
           <motion.div
             initial="hidden"
