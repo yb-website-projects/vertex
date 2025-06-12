@@ -1,0 +1,83 @@
+@import '@/shared/lib/styles/mixin.scss';
+
+.liquidityRedemption {
+  &__inner {
+    background: #0c0c0c;
+    padding: 165px 0;
+    @include tablet {
+      padding: 32px 0;
+    }
+
+    h2 {
+      color: #fff;
+      text-align: center;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 24px;
+    }
+    p {
+      color: #b6b6b6;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      @include tablet {
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+  &__row {
+    display: flex;
+    gap: 48px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    @include tablet {
+      gap: 24px;
+      flex-direction: column;
+    }
+  }
+
+  &__col {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: calc(50% - 24px);
+    border: 1px solid #242424;
+    @include tablet {
+      width: 100%;
+    }
+    h3 {
+      color: #fff;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      display: flex;
+      gap: 12px;
+      @include tablet {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      span {
+        &:first-child {
+          color: #e79eff;
+        }
+      }
+    }
+    p {
+      color: #b6b6b6;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-align: left;
+    }
+  }
+}

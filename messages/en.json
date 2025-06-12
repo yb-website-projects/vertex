@@ -176,6 +176,105 @@
     "title": "Investor Information",
     "description": "Eligibility Criteria. Subscription Process. Transparent Reporting."
   },
+  "liquidityRedemption": {
+    "item1": {
+      "title": "Initial <br/>Lock-Up",
+      "text": "No redemptions are permitted before <b>May 1, 2027</b>."
+    },
+    "item2": {
+      "title": "Redemption <br/>Window",
+      "text": "Redemptions are allowed once <b>per calendar year</b>, during the <b>year-end window</b>."
+    },
+    "item3": {
+      "title": "Notice <br/>Requirement",
+      "text": "A <b>60-day written notice</b> is required prior to redemption."
+    },
+    "item4": {
+      "title": "Secondary <br/>Transfers",
+      "text": "Allowed with KYC approval, offering mid-term liquidity without NAV impact."
+    },
+    "title": "Liquidity & Redemption Terms",
+    "text": "Vertex FinCapital is structured as an open-ended, evergreen fund with defined <br/>redemption parameters to support long-term capital alignment."
+  },
+  "reportingCommunication": {
+    "item1": {
+      "title": "Biannual NAV Reports",
+      "text": "Sent in <b>June</b> and <b>December</b> with portfolio valuation and performance."
+    },
+    "item2": {
+      "title": "Audited Annual Reports",
+      "text": "Released after fiscal year-end, prepared by <b>Baker Tilly</b>."
+    },
+    "item3": {
+      "title": "Event-Based Updates",
+      "text": "Provided for significant developments like new investments or exits."
+    },
+    "item4": {
+      "title": "Direct Investor Access",
+      "text": "No portals. All updates and inquiries are handled personally via <b>email, phone</b>, or <b>WhatsApp</b>."
+    },
+    "title": "Reporting & Communication",
+    "text": "Vertex FinCapital ensures full transparency through direct, periodic, and event-driven communication."
+  },
+  "subscriptionProcess": {
+    "item1": {
+      "title": "Contact Us",
+      "text": "Start by contacting our team to express your interest in participating. You can reach us via phone, email, or the request form on this website."
+    },
+    "item2": {
+      "title": "Receive Fund Documents",
+      "text": "Once your request is received, we will send you the Private Placement Memorandum (PPM), subscription forms, and all relevant legal documentation."
+    },
+    "item3": {
+      "title": "Complete KYC/AML",
+      "text": "To proceed, you’ll need to submit identity verification documents and complete the required KYC and AML forms. This is a standard regulatory step."
+    },
+    "item4": {
+      "title": "Sign the Subscription Agreement",
+      "text": "After compliance approval, you will sign the Subscription Agreement and any additional forms needed to confirm your commitment."
+    },
+    "item5": {
+      "title": "Transfer Capital",
+      "text": "Wire your investment amount to the fund’s custodial account held with DBS Bank Ltd. Full instructions will be provided."
+    },
+    "item6": {
+      "title": "Receive Confirmation",
+      "text": "Upon successful receipt and processing, you will receive official confirmation of your allocation and onboarding into the fund."
+    },
+    "title": "Subscription Process",
+    "text": "If you wish to join Vertex FinCapital, follow the steps below. Each stage ensures <br/>compliance, transparency, and a smooth onboarding experience."
+  },
+  "whoCanInvest": {
+    "item1": {
+      "title": "Accreditation Status",
+      "text": "Must qualify as an accredited investor under MAS guidelines."
+    },
+    "item2": {
+      "title": "Limited Capacity",
+      "text": "Participation is limited to up to 30 qualified investors."
+    },
+    "item3": {
+      "title": "Investment Horizon",
+      "text": "Suitable for long-term capital (5–10+ years)."
+    },
+    "item4": {
+      "title": "Minimum Capital",
+      "text": "USD 200,000 minimum subscription amount."
+    },
+    "title": "Who Can Invest",
+    "text": "Vertex FinCapital is open to a limited number of qualified participants. We welcome <br/>accredited investors who meet the following conditions:",
+    "cta": {
+      "title": "Have questions?",
+      "buttonText": "Contact Us"
+    }
+  },
+  "investorInformation": {
+    "cta": {
+      "title": "Ready to Join Vertex FinCapital?",
+      "text": "If you meet the eligibility criteria and want to explore participation, our team can guide you through the next steps. Whether you have a question or are ready to move forward, we support your process.",
+      "buttonText": "Request Access"
+    }
+  },
   "servicePartners": {
     "title": "Service Partners",
     "description": "Vertex FinCapital works with a select group of established service providers, each fulfilling a critical role in the fund’s legal, operational, and regulatory infrastructure. From administration and custody to audit, compliance, and tax advisory, these partners ensure that every aspect of the fund operates with institutional precision and transparency."

@@ -42,7 +42,7 @@ function extractFromFile(filePath: string): void {
 
   // Match t('key', { fallback: 'Fallback' })
   const regex =
-    /t\(\s*['"`]([\w.-]+)['"`]\s*,\s*{[^}]*fallback:\s*['"`]([\s\S]*?)['"`][^}]*}\s*\)/g;
+    /t(?:\.rich)?\(\s*['"`]([\w.-]+)['"`]\s*,\s*{[^}]*?\bfallback\s*:\s*['"`]((?:\\.|[^'"`\\])*)['"`]/g;
 
   let match;
   while ((match = regex.exec(content))) {
