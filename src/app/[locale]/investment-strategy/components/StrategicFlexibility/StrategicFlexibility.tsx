@@ -25,17 +25,6 @@ export const StrategicFlexibility = () => {
             }),
           }}
         />
-        <motion.p
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeInUp}
-          dangerouslySetInnerHTML={{
-            __html: t('subtitle', {
-              fallback: 'Explain temporary public market exposure:',
-            }),
-          }}
-        />
         <div className={styles.strategicFlexibility__row}>
           <motion.div
             initial="hidden"
@@ -46,12 +35,17 @@ export const StrategicFlexibility = () => {
             <p>
               {t('item1', {
                 fallback:
-                  'When private deal flow is pending, funds are deployed in liquid equities or bonds',
-              })}
-            </p>
-            <p>
-              {t('item2', {
-                fallback: 'Avoids idle capital, maintains productivity',
+                  'When private deal flow is pending, available funds are temporarily allocated to',
+              })}{' '}
+              <b>
+                {t('item2', {
+                  fallback: 'liquid equities or bonds',
+                })}
+              </b>
+              .{' '}
+              {t('item3', {
+                fallback:
+                  'This ensures productivity and prevents idle capital while maintaining a balanced portfolio.',
               })}
             </p>
           </motion.div>

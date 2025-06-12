@@ -4,6 +4,7 @@ import {
   FundPositioning,
   IdentityRegulatoryFramework,
   KeyFeatures,
+  TeamRepresentatives,
 } from './components';
 
 export default function TheFund() {
@@ -11,6 +12,7 @@ export default function TheFund() {
     <>
       <FundHero />
       <IdentityRegulatoryFramework />
+      <TeamRepresentatives />
       <FundPositioning />
       <KeyFeatures />
       <Explore />

@@ -61,29 +61,27 @@
       "value": "USD 200,000"
     }
   },
-  "assetClass": {
+  "capitalDeployment": {
+    "title": "Capital Deployment & Management",
     "item1": {
-      "title": "Real Estate",
-      "description": "Equity or structured debt in pre-completion residential, commercial, or mixed-use projects. Priority on permits, sponsors, and defined exits (sales/refinancing)."
+      "title": "Capital Deployment <br/>Strategy",
+      "description": "Vertex FinCapital applies a structured approach to private market investments, allocating funds across real estate, private equity, credit, and venture opportunities. Each investment is selected based on rigorous evaluation, focusing on value creation and long-term returns."
     },
     "item2": {
-      "title": "Private Equity",
-      "description": "Expansion-stage follow-on investments. Focus on payments, asset-light real estate platforms, and scalable B2B models."
+      "title": "Interim Fund <br/>Management",
+      "description": "Pending private market transactions, unallocated capital is strategically placed in listed securities. This ensures liquidity maintenance while minimizing cash drag, allowing productive deployment even during transitional phases."
     },
     "item3": {
-      "title": "Private Credit",
-      "description": "Secured lending to mid-market firms. Yields of 8–20% p.a., collateralized by property, receivables, or guarantees. Includes board rights, covenants, oversight."
-    },
-    "item4": {
-      "title": "Venture Capital",
-      "description": "Direct or syndicated exposure to early-stage fintech, proptech, and data infra startups. Targets asymmetric upside."
-    },
-    "item5": {
-      "title": "Public Small-Cap Equities",
-      "description": "Opportunistic positions in listed or pre-IPO firms with undervaluation and near-term catalysts (e.g., listing, acquisition)."
-    },
-    "title": "Asset Class Details",
-    "subtitle": "Dynamic private market investment strategy"
+      "title": "Investment <br/>Oversight",
+      "description": "A senior investment manager directly oversees interim portfolio positions through a dedicated brokerage account. The focus remains on selecting high-quality equities and bonds, ensuring consistent performance and risk-adjusted returns."
+    }
+  },
+  "exploreFund": {
+    "title1": "Learn how Vertex FinCapital operates <br/>within a regulated framework:",
+    "buttonText1": "Investment Strategy",
+    "title2": "Understand eligibility, <br/>subscription steps, and reporting",
+    "buttonText2": "Investor Information",
+    "title": "Explore the Fund Further"
   },
   "geographicDiversification": {
     "item1": {
@@ -111,22 +109,34 @@
     "note": "Include one sentence about geo-risk filters: rule of law,  <br/>FX exposure, capital controls."
   },
   "investmentStrategyHero": {
-    "title": "Strategy Overview",
-    "description": "Give investors immediate clarity on how capital is deployed."
+    "title": "Investment Strategy",
+    "description": "Targeted Allocation. Disciplined Structure. Active Oversight. "
   },
   "riskManagement": {
+    "item1": {
+      "title": "Structured Security",
+      "description": "Secured lending and senior debt structures minimize downside risk and enhance capital protection."
+    },
+    "item2": {
+      "title": "Private Equity",
+      "description": "Expansion-stage follow-on investments. Focus on payments, asset-light real estate platforms, and scalable B2B models."
+    },
+    "item3": {
+      "title": "Private Credit",
+      "description": "Secured lending to mid-market firms. Yields of 8–20% p.a., collateralized by property, receivables, or guarantees. Includes board rights, covenants, oversight."
+    },
+    "item4": {
+      "title": "Venture Capital",
+      "description": "Direct or syndicated exposure to early-stage fintech, proptech, and data infra startups. Targets asymmetric upside."
+    },
     "title": "Risk Management Approach",
-    "subtitle": "Summarize how risk is actively controlled:",
-    "item1": "Use of secured lending and senior debt structures",
-    "item2": "Diversification across sectors and jurisdictions",
-    "item3": "Conservative valuations and peer benchmarking",
-    "item4": "Quarterly rebalancing + cap of 50% NAV per asset class"
+    "subtitle": "Dynamic private market investment strategy"
   },
   "strategicFlexibility": {
     "title": "Strategic Flexibility",
-    "subtitle": "Explain temporary public market exposure:",
-    "item1": "When private deal flow is pending, funds are deployed in liquid equities or bonds",
-    "item2": "Avoids idle capital, maintains productivity"
+    "item1": "When private deal flow is pending, available funds are temporarily allocated to",
+    "item2": "liquid equities or bonds",
+    "item3": "This ensures productivity and prevents idle capital while maintaining a balanced portfolio."
   },
   "strategyInclude": {
     "title": "Include",
@@ -137,23 +147,32 @@
   },
   "targetPortfolio": {
     "item1": {
-      "title": "Real Estate"
+      "title": "Real <br/>Estate",
+      "text": "Investments in pre-completion residential, commercial, or mixed-use projects. Focus on permits, strong sponsors, and clear exit strategies."
     },
     "item2": {
-      "title": "Private Equity"
+      "title": "Private <br/>Equity",
+      "text": "Expansion-stage investments in scalable businesses—payments, proptech, and asset-light real estate platforms."
     },
     "item3": {
-      "title": "Private Credit"
+      "title": "Private <br/>Credit",
+      "text": "Secured lending to mid-market firms. Yield range 8–20% p.a., backed by property, receivables, or guarantees. Includes board rights and oversight."
     },
     "item4": {
-      "title": "Venture Capital"
+      "title": "Venture <br/>Capital",
+      "text": "Early-stage exposure in fintech, proptech, and data infrastructure startups. Selective investments with high-growth potential."
     },
     "item5": {
-      "title": "Public Small-Cap Equities"
+      "title": "Small-Cap <br/>Equities",
+      "text": "Opportunistic positions in listed or pre-IPO firms showing undervaluation and near-term catalysts."
     },
-    "title": "Target Portfolio Allocation",
-    "subtitle": "Present as a visual allocation breakdown or clean list",
-    "note": "Note: Add a sentence stating rebalancing occurs quarterly or as needed, <br/>with a max 50% NAV cap per asset class"
+    "title": "Portfolio Allocation & Asset Classes",
+    "note1": "Portfolio Rebalancing: ",
+    "note2": "Adjustments occur quarterly or as needed, ensuring no single asset class exceeds 50% of NAV."
+  },
+  "investorHero": {
+    "title": "Investor Information",
+    "description": "Eligibility Criteria. Subscription Process. Transparent Reporting."
   },
   "servicePartners": {
     "title": "Service Partners",
@@ -165,9 +184,9 @@
   },
   "serviceProviders": {
     "cta": {
-      "title": "Ready to Join Vertex FinCapital?",
-      "text": "If you meet the eligibility criteria and want to explore participation, our team can guide you through the next steps. Whether you have a question or are ready to move forward, we support your process.",
-      "buttonText": "Request Access"
+      "title": "Interested in joining the fund",
+      "text": "Review eligibility, onboarding steps, and reporting structure.",
+      "buttonText": "Go to Investor Information"
     }
   },
   "explore": {
@@ -207,6 +226,15 @@
     "title3": "Fast execution with active deal oversight.",
     "title4": "Access is limited to 20–30 investors.",
     "title": "Key Features / Differentiators"
+  },
+  "teamRepresentatives": {
+    "title1": "Ai Teng",
+    "text1_1": "Represents XEQ Capital. Specializes in multi-asset portfolio design and macroeconomic research.",
+    "text1_2": "Formerly held senior roles at AIA, Phillip Capital, and Prudential. Brings disciplined execution and conservative capital allocation expertise.",
+    "title2": "Baruch Ilevich",
+    "text2_1": "Represents YB Advisors. CPA (Israel) with 15+ years in cross-border fund structuring, tax strategy, and investor relations.",
+    "text2_2": "Active across Europe and Israel, with strong integration of digital finance systems.",
+    "title": "Team Representatives"
   },
   "fundAccessRequest": {
     "title": "Fund Access Request"

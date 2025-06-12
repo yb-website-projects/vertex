@@ -1,0 +1,52 @@
+@import '@/shared/lib/styles/mixin.scss';
+
+.investorHero {
+  padding: 165px 0;
+  background: #0c0c0c;
+  @include tablet {
+    padding: 56px 0;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 96px;
+    @include tablet {
+      flex-direction: column;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 50%;
+
+    @include tablet {
+      width: 100%;
+    }
+    h1 {
+      color: #e79eff;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      @include tablet {
+        font-size: 32px;
+      }
+    }
+    p {
+      color: #b6b6b6;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  img {
+    object-fit: cover;
+    @include tablet {
+      width: 100%;
+      height: 401px;
+    }
+  }
+}

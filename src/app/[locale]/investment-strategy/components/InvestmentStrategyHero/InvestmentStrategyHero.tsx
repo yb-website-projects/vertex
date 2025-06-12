@@ -22,7 +22,7 @@ export const InvestmentStrategyHero = () => {
             variants={fadeInUp}
             dangerouslySetInnerHTML={{
               __html: t('title', {
-                fallback: 'Strategy Overview',
+                fallback: 'Investment Strategy',
               }),
             }}
           />
@@ -33,7 +33,7 @@ export const InvestmentStrategyHero = () => {
             variants={fadeInUp}
             dangerouslySetInnerHTML={{
               __html: t('description', {
-                fallback: 'Give investors immediate clarity on how capital is deployed.',
+                fallback: 'Targeted Allocation. Disciplined Structure. Active Oversight. ',
               }),
             }}
           />

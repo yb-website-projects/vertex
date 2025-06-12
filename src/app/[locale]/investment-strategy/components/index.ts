@@ -1,4 +1,5 @@
-export * from './AssetClass/AssetClass';
+export * from './CapitalDeployment/CapitalDeployment';
+export * from './Explore/Explore';
 export * from './GeographicDiversification/GeographicDiversification';
 export * from './InvestmentStrategyHero/InvestmentStrategyHero';
 export * from './RiskManagement/RiskManagement';

@@ -3,3 +3,4 @@ export * from './FundHero/FundHero';
 export * from './FundPositioning/FundPositioning';
 export * from './IdentityRegulatoryFramework/IdentityRegulatoryFramework';
 export * from './KeyFeatures/KeyFeatures';
+export * from './TeamRepresentatives/TeamRepresentatives';

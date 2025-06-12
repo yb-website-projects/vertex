@@ -36,7 +36,7 @@ export const Footer = () => {
         },
         {
           title: t('links.link4', { fallback: 'Investor Information' }),
-          url: '#',
+          url: '/investor-information',
         },
       ],
     },

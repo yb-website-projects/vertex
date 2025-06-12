@@ -11,62 +11,78 @@ import styles from './RiskManagement.module.scss';
 export const RiskManagement = () => {
   const t = useTranslations('riskManagement');
 
+  const data = [
+    {
+      title: t('item1.title', {
+        fallback: 'Structured Security',
+      }),
+      description: t('item1.description', {
+        fallback:
+          'Secured lending and senior debt structures minimize downside risk and enhance capital protection.',
+      }),
+      image: '/images/investment-strategy/risk1.png',
+    },
+    {
+      title: t('item2.title', {
+        fallback: 'Diversified Exposure',
+      }),
+      description: t('item2.description', {
+        fallback:
+          'Investments span multiple sectors and jurisdictions, reducing concentration risk.',
+      }),
+      image: '/images/investment-strategy/risk2.png',
+    },
+    {
+      title: t('item3.title', {
+        fallback: 'Conservative Valuations',
+      }),
+      description: t('item3.description', {
+        fallback:
+          'Each asset undergoes peer benchmarking and strict valuation controls to ensure pricing discipline.',
+      }),
+      image: '/images/investment-strategy/risk3.png',
+    },
+    {
+      title: t('item4.title', {
+        fallback: 'Dynamic Portfolio Oversight',
+      }),
+      description: t('item4.description', {
+        fallback:
+          'Quarterly rebalancing ensures adaptability, with no more than 50% of NAV allocated to any single asset class.',
+      }),
+      image: '/images/investment-strategy/risk4.png',
+    },
+  ];
+
   return (
     <section className={styles.riskManagement}>
-      <div className={styles.riskManagement__inner}>
-        <div className={'_container'}>
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeInUp}
-            className={styles.riskManagement__body}
-          >
-            <Image
-              src="/images/investment-strategy/risk-management.png"
-              alt="risk management"
-              width={515}
-              height={400}
-            />
-            <div>
-              <h2
-                dangerouslySetInnerHTML={{
-                  __html: t('title', {
-                    fallback: 'Risk Management Approach',
-                  }),
-                }}
-              />
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: t('subtitle', {
-                    fallback: 'Summarize how risk is actively controlled:',
-                  }),
-                }}
-              />
-              <ul>
-                <li>
-                  {t('item1', {
-                    fallback: 'Use of secured lending and senior debt structures',
-                  })}
-                </li>
-                <li>
-                  {t('item2', {
-                    fallback: 'Diversification across sectors and jurisdictions',
-                  })}
-                </li>
-                <li>
-                  {t('item3', {
-                    fallback: 'Conservative valuations and peer benchmarking',
-                  })}
-                </li>
-                <li>
-                  {t('item4', {
-                    fallback: 'Quarterly rebalancing + cap of 50% NAV per asset class',
-                  })}
-                </li>
-              </ul>
-            </div>
-          </motion.div>
+      <div className={'_container'}>
+        <motion.h2
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={fadeInUp}
+          dangerouslySetInnerHTML={{
+            __html: t('title', {
+              fallback: 'Risk Management Approach',
+            }),
+          }}
+        />
+        <div className={styles.riskManagement__row}>
+          {data.map((item, index) => (
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeInUp}
+              key={index}
+              className={styles.riskManagement__col}
+            >
+              <Image src={item.image} alt={item.title} width={338} height={438} />
+              <h4>{item.title}</h4>
+              <p>{item.description}</p>
+            </motion.div>
+          ))}
         </div>
       </div>
     </section>
