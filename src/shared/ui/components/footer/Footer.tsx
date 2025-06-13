@@ -49,7 +49,7 @@ export const Footer = () => {
         },
         {
           title: t('links.link6', { fallback: 'Contact Us' }),
-          url: '#',
+          url: '/contact-us',
         },
       ],
     },
