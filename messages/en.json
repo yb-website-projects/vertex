@@ -61,6 +61,17 @@
       "value": "USD 200,000"
     }
   },
+  "contactWrap": {
+    "title": "Contact Us",
+    "description": "Inquire. Get Assistance. Stay Connected.",
+    "subtitle1": "Where to Reach Us",
+    "subtitle1Description": "Our team is available to respond to fund-related inquiries and direct requests. Please use the contact details below to connect with us.",
+    "officeAddress": "Office Address:",
+    "registrationAddress": "Registration Address:",
+    "subtitle2": "Send a Message",
+    "subtitle2Description": "For direct inquiries or follow-up requests, please complete the form below and our team will respond promptly.",
+    "subtitle3": "Let your capital do what it <br/>was meant to — create value."
+  },
   "capitalDeployment": {
     "title": "Capital Deployment & Management",
     "item1": {
@@ -303,8 +314,7 @@
   },
   "fundPositioning": {
     "title": "Fund Positioning & Objectives",
-    "description": "Vertex FinCapital serves as a core alternative allocation for accredited investors, combining boutique agility with institutional standards. The fund is limited to 20–30 participants and follows a high-conviction, access-driven strategy focused on private market opportunities.",
-    "button": "Explore the Fund"
+    "description": "Vertex FinCapital serves as a core alternative allocation for accredited investors, combining boutique agility with institutional standards. The fund is limited to 20–30 participants and follows a high-conviction, access-driven strategy focused on private market opportunities."
   },
   "identityRegulatoryFramework": {
     "title": "Identity & Regulatory Framework",
@@ -336,6 +346,11 @@
     "text2_1": "Represents YB Advisors. CPA (Israel) with 15+ years in cross-border fund structuring, tax strategy, and investor relations.",
     "text2_2": "Active across Europe and Israel, with strong integration of digital finance systems.",
     "title": "Team Representatives"
+  },
+  "contactForm": {
+    "messageSentTitle": "Message Sent",
+    "messageSentDescription": "Thank you for your message. A representative of Vertex FinCapital will contact you shortly.",
+    "messageSentButton": "Continue"
   },
   "fundAccessRequest": {
     "title": "Fund Access Request"
