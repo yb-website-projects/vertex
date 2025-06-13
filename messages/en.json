@@ -286,6 +286,170 @@
       "buttonText": "Request Access"
     }
   },
+  "fundJurisdiction": {
+    "item1": {
+      "title": "Regulated Environment",
+      "text": "Licensed and supervised under the Monetary Authority of Singapore (MAS), ensuring compliance with KYC, AML, and reporting standards."
+    },
+    "item2": {
+      "title": "VCC Sub-Fund Structure",
+      "text": "Structured as an open-ended sub-fund within the Variable Capital Company framework. Assets are ring-fenced and legally segregated from other sub-funds."
+    },
+    "item3": {
+      "title": "Advanced Financial Infrastructure",
+      "text": "Operates in one of the world’s leading financial jurisdictions, with streamlined fund registration and institutional-grade service providers."
+    },
+    "item4": {
+      "title": "Tax Efficiency",
+      "text": "Eligible for fund-specific tax exemptions, no capital gains tax in Singapore, and access to a broad network of Double Taxation Agreements (DTAs)."
+    },
+    "title": "Fund Jurisdiction & Legal Framework",
+    "text": "Vertex FinCapital operates under a Singapore-regulated legal structure designed to meet the highest institutional standards. The fund is structured as a sub-fund of XEQ Global Alternatives VCC and benefits from the following key features:"
+  },
+  "legalHero": {
+    "title": "Legal and Compliance",
+    "description": "Transparent structure. Independent oversight. Regulated under Singapore law."
+  },
+  "legalServices": {
+    "item1": {
+      "title": "Auditing and Tax Compliance",
+      "description": "Vertex FinCapital maintains full financial transparency through independent audits and expert tax advisory, aligned with Singapore’s regulatory framework.",
+      "block1": {
+        "title": "Baker Tilly TFW LLP",
+        "position": "Auditor",
+        "description": "A leading audit firm responsible for the fund’s annual audits in accordance with Singapore Financial Reporting Standards (SFRS).",
+        "list": {
+          "item1": {
+            "text": "Verifies Net Asset Values (NAVs)"
+          },
+          "item2": {
+            "text": "Confirms fund expenses and asset valuations"
+          },
+          "item3": {
+            "text": "Issues audited reports post-fiscal year-end"
+          }
+        }
+      },
+      "block2": {
+        "title": "Baker Tilly & Consultancy",
+        "position": "Tax Advisor",
+        "description": "Provides ongoing tax guidance to optimise fund structure and ensure legal compliance.",
+        "list": {
+          "item1": {
+            "text": "Designs tax-efficient structures under Singapore’s fund regime"
+          },
+          "item2": {
+            "text": "Supports participation in tax exemption schemes"
+          },
+          "item3": {
+            "text": "Ensures access to Double Taxation Agreement (DTA) benefits for eligible investors"
+          }
+        }
+      }
+    },
+    "item2": {
+      "title": "Legal Counsel & Documentation",
+      "description": "Legal operations and governance oversight are provided by a specialist legal partner with deep fund expertise.",
+      "block1": {
+        "title": "BTPLaw LLC",
+        "position": "Legal Counsel",
+        "description": "A Singapore-based law firm advising on fund structuring, registration, and compliance.",
+        "list": {
+          "item1": {
+            "text": "Drafts and reviews offering documents, subscription agreements, and other legal materials"
+          },
+          "item2": {
+            "text": "Manages regulatory filings with relevant authorities"
+          },
+          "item3": {
+            "text": "Provides ongoing legal guidance throughout the fund’s operations and lifecycle"
+          }
+        }
+      }
+    },
+    "item3": {
+      "title": "Custodianship and Asset Protection",
+      "description": "The fund’s financial assets are held and monitored by a top-tier custodian under institutional-grade protocols.",
+      "block1": {
+        "title": "DBS Bank Ltd",
+        "position": "Custodian",
+        "description": "One of Asia’s leading banks, entrusted with the safekeeping and flow of fund capital.",
+        "list": {
+          "item1": {
+            "text": "Maintains dedicated custodial accounts for investor protection"
+          },
+          "item2": {
+            "text": "Safeguards the fund’s cash positions and listed securities"
+          },
+          "item3": {
+            "text": "Oversees settlement monitoring and day-to-day transaction flows"
+          }
+        }
+      }
+    },
+    "item4": {
+      "title": "Corporate Governance",
+      "description": "Strong internal governance is maintained through ongoing statutory oversight and corporate recordkeeping.",
+      "block1": {
+        "title": "Atriox Management",
+        "position": "Company Secretary",
+        "description": "A specialized corporate service provider ensuring structural and legal integrity of the fund entity.",
+        "list": {
+          "item1": {
+            "text": "Manages statutory compliance with Singapore’s ACRA"
+          },
+          "item2": {
+            "text": "Maintains up-to-date director and shareholder registries"
+          },
+          "item3": {
+            "text": "Oversees internal governance and documentation protocols"
+          }
+        }
+      }
+    }
+  },
+  "regulatoryOversight": {
+    "item1": {
+      "title": "Licensed Fund Manager",
+      "text": "XEQ Capital is authorised to manage capital markets products and serve accredited investors, operating within MAS’s regulatory framework."
+    },
+    "item2": {
+      "title": "MAS Compliance",
+      "text": "All fund activities are conducted in accordance with Singapore’s regulatory requirements, ensuring transparency and institutional integrity",
+      "text2": "Timely statutory filings and disclosure obligations",
+      "text3": "Robust governance, risk oversight, and fund operation protocols"
+    },
+    "item3": {
+      "title": "Core Regulatory Functions",
+      "text1": "Full KYC/AML compliance under MAS guidelines"
+    },
+    "title": "Regulatory Oversight",
+    "text": "Vertex FinCapital is managed by XEQ Capital, a licensed fund manager regulated by the Monetary Authority of Singapore (MAS) under CMS License No. CMS101602. The fund’s operations adhere to the highest regulatory and institutional standards."
+  },
+  "whySingapore": {
+    "item1": {
+      "text": "<b>Ring-fenced sub-funds</b> – Each compartment is legally separate, isolating liabilities"
+    },
+    "item2": {
+      "text": "<b>Streamlined approvals</b> – Fast-track fund registration and compliance under MAS"
+    },
+    "item3": {
+      "text": "<b>Tax efficiency</b> – No capital gains tax and access to Singapore’s tax exemption schemes"
+    },
+    "item4": {
+      "text": "<b>Global trust</b> – Singapore law supports international dispute resolution and investor confidence"
+    },
+    "title": "Why Singapore VCC Matters",
+    "text": "Vertex FinCapital is structured under the Variable Capital Company (VCC) regime—Singapore’s gold-standard framework for modern funds.",
+    "subtitle": "Legal and Operational Advantages"
+  },
+  "legalAndCompliance": {
+    "cta": {
+      "title": "Ready to Join Vertex FinCapital?",
+      "text": "Participation is exclusive—and deliberate. If you meet the investor criteria and are looking to diversify with institutional-grade private market exposure, we invite you to start the conversation.",
+      "buttonText": "Request Access"
+    }
+  },
   "servicePartners": {
     "title": "Service Partners",
     "description": "Vertex FinCapital works with a select group of established service providers, each fulfilling a critical role in the fund’s legal, operational, and regulatory infrastructure. From administration and custody to audit, compliance, and tax advisory, these partners ensure that every aspect of the fund operates with institutional precision and transparency."

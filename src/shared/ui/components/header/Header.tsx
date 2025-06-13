@@ -81,7 +81,7 @@ export const Header = () => {
                       <Link href="#">{t('newsAndUpdates', { fallback: 'News & Updates' })}</Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="/legal-and-compliance">
                         {t('legalAndCompliance', { fallback: 'Legal & Compliance' })}
                       </Link>
                     </li>
@@ -130,7 +130,7 @@ export const Header = () => {
                   <Link href="#">{t('newsAndUpdates', { fallback: 'News & Updates' })}</Link>
                 </li>
                 <li>
-                  <Link href="#">
+                  <Link href="/legal-and-compliance">
                     {t('legalAndCompliance', { fallback: 'Legal & Compliance' })}
                   </Link>
                 </li>

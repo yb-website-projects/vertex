@@ -1,0 +1,122 @@
+@import '@/shared/lib/styles/mixin.scss';
+
+.legalServices {
+  padding: 165px 0;
+  background: #0c0c0c;
+  @include tablet {
+    padding: 32px 0;
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 165px;
+    @include tablet {
+      gap: 64px;
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    &:nth-child(even) {
+      .legalServices__blocks {
+        flex-direction: row-reverse;
+        @include tablet {
+          flex-direction: column;
+        }
+      }
+    }
+    h2 {
+      color: #fff;
+      text-align: center;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    > p {
+      color: #b6b6b6;
+      text-align: center;
+
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      max-width: 650px;
+      margin: 0 auto;
+      @include tablet {
+        max-width: 100%;
+      }
+    }
+  }
+
+  &__blocks {
+    display: flex;
+    gap: 48px;
+    margin-top: 24px;
+    align-items: stretch;
+    @include tablet {
+      flex-direction: column;
+    }
+
+    img {
+      width: calc(50% - 24px);
+      object-fit: cover;
+      height: auto;
+      @include tablet {
+        width: 100%;
+        height: 358px;
+      }
+    }
+  }
+
+  &__block {
+    width: calc(50% - 24px);
+    border: 1px solid #242424;
+    padding: 20px;
+    @include tablet {
+      width: 100%;
+    }
+    h3 {
+      color: #fff;
+      margin-bottom: 12px;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    h4 {
+      color: #e79eff;
+      margin-bottom: 24px;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    p {
+      color: #b6b6b6;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 16px;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      list-style-type: disc;
+      padding-left: 24px;
+      li {
+        list-style-type: disc;
+        color: #b6b6b6;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+}
