@@ -55,6 +55,33 @@
       display: flex;
       flex-direction: column;
       gap: 12px;
+
+      &.contacts {
+        display: flex;
+        gap: 12px;
+        flex-direction: row;
+        @include tablet {
+          flex-direction: column;
+        }
+        a {
+          flex-grow: 1;
+          display: flex;
+          width: calc(50% - 6px);
+          padding: 12px;
+          align-items: center;
+          gap: 8px;
+          background: rgba(255, 255, 255, 0.05);
+          color: #b6b6b6;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          @include tablet {
+            width: 100%;
+          }
+        }
+      }
+
       &.title {
         margin-bottom: 48px;
       }

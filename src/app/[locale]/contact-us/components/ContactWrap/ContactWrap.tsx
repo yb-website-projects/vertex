@@ -1,4 +1,6 @@
 'use client';
+import Image from 'next/image';
+import Link from 'next/link';
 
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
@@ -93,6 +95,23 @@ export const ContactWrap = () => {
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
+              </motion.div>
+              <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeInUp}
+                className={styles.contacts}
+              >
+                {/**<Link href="tel:+6562218888">
+                  <Image src="/images/phone.svg" alt="phone" width={16} height={16} />
+                  <span>+65 6221 8888</span>
+                </Link> */}
+
+                <Link href="mailto:info@vertexfcapital.com">
+                  <Image src="/images/email.svg" alt="email" width={16} height={16} />
+                  <span>info@vertexfcapital.com</span>
+                </Link>
               </motion.div>
             </div>
             <div className={styles.contactWrap__col}>
