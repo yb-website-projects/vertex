@@ -3,12 +3,12 @@ import { Inter, Lora } from 'next/font/google';
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 
+import { FundAccessModal } from '@/features/fundAccessRequest';
+
 import { Footer, Header, Preloader } from '@/shared/ui/components';
 
 import '@/shared/lib/styles/null.scss';
 import '@/shared/lib/styles/base.scss';
-
-import { FundAccessModal } from '@/featured/fundAccessRequest';
 
 const lora = Lora({
   variable: '--font-lora',

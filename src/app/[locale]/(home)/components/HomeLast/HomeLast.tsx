@@ -4,12 +4,12 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 
+import { useFundAccessStore } from '@/features/fundAccessRequest/store/fundAccessStore';
+
 import { fadeInUp } from '@/shared/lib/helpers/animations';
 import { Button } from '@/shared/ui/kit';
 
 import styles from './HomeLast.module.scss';
-
-import { useFundAccessStore } from '@/featured/fundAccessRequest/store/fundAccessStore';
 
 export const HomeLast = () => {
   const t = useTranslations('homeLast');

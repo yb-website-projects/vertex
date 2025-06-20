@@ -7,12 +7,12 @@ import { usePathname } from 'next/navigation';
 
 import { useTranslations } from 'next-intl';
 
+import { useFundAccessStore } from '@/features/fundAccessRequest/store/fundAccessStore';
+
 import { Burger, ChevronDown } from '@/shared/ui/icons';
 import { Button } from '@/shared/ui/kit';
 
 import styles from './Header.module.scss';
-
-import { useFundAccessStore } from '@/featured/fundAccessRequest/store/fundAccessStore';
 
 export const Header = () => {
   const [isSubmenuOpen, setIsSubmenuOpen] = useState(false);

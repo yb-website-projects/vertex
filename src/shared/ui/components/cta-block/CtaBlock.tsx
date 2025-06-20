@@ -1,9 +1,9 @@
 'use client';
 
+import { useFundAccessStore } from '@/features/fundAccessRequest/store/fundAccessStore';
+
 import { Button } from '../../kit/button/Button';
 import styles from './CtaBlock.module.scss';
-
-import { useFundAccessStore } from '@/featured/fundAccessRequest/store/fundAccessStore';
 
 export const CtaBlock = ({
   title,

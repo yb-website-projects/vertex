@@ -5,11 +5,11 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 
+import { ContactForm } from '@/features/contactForm/ui/ContactForm/ContactForm';
+
 import { fadeInUp } from '@/shared/lib/helpers/animations';
 
 import styles from './ContactWrap.module.scss';
-
-import { ContactForm } from '@/featured/contactForm/ui/ContactForm/ContactForm';
 
 export const ContactWrap = () => {
   const t = useTranslations('contactWrap');
