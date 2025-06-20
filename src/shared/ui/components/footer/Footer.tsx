@@ -69,7 +69,7 @@ export const Footer = () => {
           url: '#',
         },
         {
-          title: t('links.link10', { fallback: 'Regulatory Documents' }),
+          title: t('links.link10', { fallback: 'Disclaimer' }),
           url: '#',
         },
       ],
@@ -112,13 +112,13 @@ export const Footer = () => {
             </p>
 
             <div className={styles.contacts}>
-              <Link href="#">
+              {/**<Link href="tel:+6562218888">
                 <Image src="/images/phone.svg" alt="phone" width={16} height={16} />
                 <span>+65 6221 8888</span>
-              </Link>
-              <Link href="#">
+              </Link> */}
+              <Link href="mailto:info@vertexfcapital.com">
                 <Image src="/images/email.svg" alt="email" width={16} height={16} />
-                <span>info@vertexfincapital.com</span>
+                <span>info@vertexfcapital.com</span>
               </Link>
             </div>
           </div>
