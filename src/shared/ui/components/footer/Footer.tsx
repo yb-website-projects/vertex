@@ -58,19 +58,19 @@ export const Footer = () => {
       links: [
         {
           title: t('links.link7', { fallback: 'Privacy Policy' }),
-          url: '#',
+          url: '/legal/privacy-policy',
         },
         {
           title: t('links.link8', { fallback: 'Cookie Policy' }),
-          url: '#',
+          url: '/legal/cookie-policy',
         },
         {
           title: t('links.link9', { fallback: 'Terms of Use' }),
-          url: '#',
+          url: '/legal/terms-of-use',
         },
         {
           title: t('links.link10', { fallback: 'Disclaimer' }),
-          url: '#',
+          url: '/legal/disclaimer',
         },
       ],
     },

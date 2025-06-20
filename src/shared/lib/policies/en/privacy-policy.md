@@ -1,5 +1,5 @@
 ---
-title: "Terms of Use"
+title: "Privacy Policy"
 ---
 
 Welcome to the official website of Vertex FinCapital. Please read these Terms of Use carefully before using our website vertexfcapital.com. By accessing or using this site, you agree to be legally bound by these Terms and all applicable laws and regulations. Please refrain from using the website if you do not accept these Terms.
