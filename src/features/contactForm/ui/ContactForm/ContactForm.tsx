@@ -67,7 +67,7 @@ export const ContactForm = () => {
             <input type="checkbox" {...register('consent')} />
             <span>
               I agree to be contacted in accordance with the{' '}
-              <Link href="/privacy-policy">Privacy Policy</Link>.
+              <Link href="/legal/privacy-policy">Privacy Policy</Link>.
             </span>
           </label>
           {errors.consent && <p className={styles.error}>{errors.consent.message}</p>}
