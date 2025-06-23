@@ -21,8 +21,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Vertex',
-  description: 'Vertex',
+  title: {
+    template: '%s | Vertex FinCapital',
+    default: 'Regulated Investment Fund',
+  },
+  description:
+    'Explore Vertex FinCapital, a MAS-regulated investment fund structured under Singapore VCC. Learn how we provide exclusive access to private equity, credit, real estate, and venture capital with strong institutional oversight and tailored investor solutions.',
   icons: [
     {
       rel: 'icon',
@@ -37,6 +41,15 @@ export const metadata: Metadata = {
       media: '(prefers-color-scheme: dark)',
     },
   ],
+  openGraph: {
+    title: {
+      template: '%s | Vertex FinCapital',
+      default: 'Regulated Investment Fund',
+    },
+    description:
+      'Explore Vertex FinCapital, a MAS-regulated investment fund structured under Singapore VCC. Learn how we provide exclusive access to private equity, credit, real estate, and venture capital with strong institutional oversight and tailored investor solutions.',
+    //images: 'https://vertexfincapital.com/images/meta.png',
+  },
 };
 
 export default async function RootLayout({

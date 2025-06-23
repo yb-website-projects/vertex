@@ -13,7 +13,7 @@ export const CtaBlock = ({
   backgroundImage,
 }: {
   title: string;
-  text: string;
+  text?: string;
   buttonText: string;
   buttonLink: string;
   backgroundImage: string;

@@ -53,10 +53,8 @@ export default async function PolicyPage({
       <section className={st.policy}>
         <div className="_container">
           <div className={st.policy__body}>
-            <div className={st.sectionTitle}>
-              <h1>{page.title}</h1>
-            </div>
             <article className={st.policy__content}>
+              <h1>{page.title}</h1>
               <div dangerouslySetInnerHTML={{ __html: page.body }} />
             </article>
           </div>

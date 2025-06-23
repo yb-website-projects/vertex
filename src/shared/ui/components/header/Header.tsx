@@ -78,7 +78,9 @@ export const Header = () => {
                   </Link>
                   <ul className={`${styles.submenu} ${isSubmenuOpen ? styles.open : ''}`}>
                     <li>
-                      <Link href="#">{t('newsAndUpdates', { fallback: 'News & Updates' })}</Link>
+                      <Link href="/news-and-updates">
+                        {t('newsAndUpdates', { fallback: 'News & Updates' })}
+                      </Link>
                     </li>
                     <li>
                       <Link href="/legal-and-compliance">
@@ -127,7 +129,9 @@ export const Header = () => {
               </Link>
               <ul className={`${styles.submenu} ${isSubmenuOpen ? styles.open : ''}`}>
                 <li>
-                  <Link href="#">{t('newsAndUpdates', { fallback: 'News & Updates' })}</Link>
+                  <Link href="/news-and-updates">
+                    {t('newsAndUpdates', { fallback: 'News & Updates' })}
+                  </Link>
                 </li>
                 <li>
                   <Link href="/legal-and-compliance">

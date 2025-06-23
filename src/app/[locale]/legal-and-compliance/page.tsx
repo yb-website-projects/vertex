@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 import { CtaBlock } from '@/shared/ui/components';
@@ -9,6 +10,18 @@ import {
   RegulatoryOversight,
   WhySingapore,
 } from './components';
+
+export const metadata: Metadata = {
+  title: 'Legal and Compliance Framework',
+  description:
+    'Explore the regulatory framework, fund compliance policies, and legal structure supporting Vertex FinCapital’s secure and transparent operations.',
+  openGraph: {
+    title: 'Legal and Compliance Framework',
+    description:
+      'Explore the regulatory framework, fund compliance policies, and legal structure supporting Vertex FinCapital’s secure and transparent operations.',
+    //images: 'https://vertexfincapital.com/images/meta.png',
+  },
+};
 
 export default async function LegalAndCompliancePage() {
   const t = await getTranslations('legalAndCompliance');

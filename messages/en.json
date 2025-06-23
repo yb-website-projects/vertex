@@ -450,6 +450,28 @@
       "buttonText": "Request Access"
     }
   },
+  "newsAndUpdates": {
+    "cta": {
+      "title": "If you are interested in investments and our fund, please visit the Fund page or contact us directly.",
+      "buttonText1": "The Fund",
+      "buttonText2": "Contact Us"
+    },
+    "posts": {
+      "title1": "Global Financing Reform in Focus: Why FfD4 in Seville Matters",
+      "description1": "The upcoming UN conference in Seville marks a pivotal moment for reshaping the global financial architecture. As debt pressures rise and sustainable development goals remain underfunded, FfD4 brings critical momentum to reform efforts—and signals where global capital may shift next",
+      "title2": "Europe’s Investment Landscape: Innovation and Fragmentation",
+      "description2": "Europe stands at a crossroads—rich in technology and green leadership, yet constrained by fragmented markets and tightening fiscal pressures. This analysis explores where capital is flowing, what’s holding it back, and why bold investment reform is urgently needed.",
+      "title3": "Vertex FinCapital on the 9th Annual European Fund Finance Symposium",
+      "description3": "As Europe’s fund finance ecosystem evolves, the 9th Annual Symposium in London becomes a critical touchpoint for private capital professionals. Vertex FinCapital highlights why this year’s discussions on structuring, liquidity, and regulatory shifts are particularly relevant for fund managers and institutional investors.",
+      "title4": "Venture Capital Forum 2025: Redefining Europe",
+      "description4": "The upcoming forum in Amsterdam gathers Europe’s top LPs and GPs to examine how capital allocation is evolving across biotech, tech, and climate ventures. Vertex FinCapital outlines why this event is pivotal for shaping the continent’s innovation finance landscape.",
+      "buttonText": "Read"
+    }
+  },
+  "newsHero": {
+    "title": "Insights & Analysis",
+    "description": "Expert views on markets, capital, and innovation."
+  },
   "servicePartners": {
     "title": "Service Partners",
     "description": "Vertex FinCapital works with a select group of established service providers, each fulfilling a critical role in the fund’s legal, operational, and regulatory infrastructure. From administration and custody to audit, compliance, and tax advisory, these partners ensure that every aspect of the fund operates with institutional precision and transparency."

@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 import { CtaBlock } from '@/shared/ui/components';
@@ -9,6 +10,18 @@ import {
   SubscriptionProcess,
   WhoCanInvest,
 } from './components';
+
+export const metadata: Metadata = {
+  title: 'Investor Information & Reporting',
+  description:
+    'Access essential documents, reporting standards, subscription terms, and updates relevant to current and prospective investors of Vertex FinCapital.',
+  openGraph: {
+    title: 'Investor Information & Reporting',
+    description:
+      'Access essential documents, reporting standards, subscription terms, and updates relevant to current and prospective investors of Vertex FinCapital.',
+    //images: 'https://vertexfincapital.com/images/meta.png',
+  },
+};
 
 export default async function InvestorInformation() {
   const t = await getTranslations('investorInformation');

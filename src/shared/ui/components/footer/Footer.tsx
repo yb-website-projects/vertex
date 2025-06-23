@@ -45,7 +45,7 @@ export const Footer = () => {
       links: [
         {
           title: t('links.link5', { fallback: 'News & Updates' }),
-          url: '#',
+          url: '/news-and-updates',
         },
         {
           title: t('links.link6', { fallback: 'Contact Us' }),
