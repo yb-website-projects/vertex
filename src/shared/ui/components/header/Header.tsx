@@ -83,7 +83,7 @@ export const Header = () => {
               </ul>
             </nav>
             <Button color="white" buttonType="link" url="/contact-us">
-              {t('needAssistance', { fallback: 'Need Assistance?' })}
+              {t('contactUs', { fallback: 'Contact Us' })}
             </Button>
           </div>
         </div>
@@ -134,7 +134,7 @@ export const Header = () => {
           </ul>
         </nav>
         <Button color="white" buttonType="link" url="/contact-us">
-          {t('needAssistance', { fallback: 'Need Assistance?' })}
+          {t('contactUs', { fallback: 'Contact Us' })}
         </Button>
       </div>
     </>
