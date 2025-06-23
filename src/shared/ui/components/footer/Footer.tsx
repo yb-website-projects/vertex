@@ -94,17 +94,17 @@ export const Footer = () => {
 
             <p>
               {t('registeredAddress', {
-                fallback: 'Registered address:',
+                fallback: 'Registered address: 76 Playfair Road, #06-01, Singapore 367996',
               })}
               <span></span>
             </p>
             <p>
               {t('registeredNumber', {
-                fallback: 'Registered number:',
+                fallback: 'Registration number: T24VC0027F-SF002',
               })}
               <span></span>
             </p>
-            <p>
+            <p style={{ display: 'none' }}>
               {t('officeAddress', {
                 fallback: 'Office address:',
               })}

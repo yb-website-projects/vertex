@@ -8,7 +8,10 @@ This Cookie Policy explains the use of cookies and similar technologies (“cook
 
 “Vertex FinCapital,” “we,” “us,” or “our” refers to **Vertex FinCapital**, a sub-fund of **XEQ Global Alternatives VCC**, managed by **XEQ Capital** and promoted by **YB Advisors Ltd**.
 
-This Cookie Policy  should be read with our Privacy Policy.
+This Cookie Policy  should be read with our Privacy Policy. The fund is operated by Vertex FinCapital and legally represented by its management entity.
+
+- Registered Address: 76 Playfair Road, #06-01, Singapore 367996
+- Registration Number: T24VC0027F-SF002
 
 This policy does not apply to third-party websites or services not operated or controlled by Vertex FinCapital.
 
@@ -66,6 +69,7 @@ Note: "Session" cookies expire once your browsing session ends, while others may
 We may use additional technologies such as:
 
 - **Web beacons / tracking pixels**: Small code snippets embedded in pages or emails to track actions such as opening a newsletter or clicking a link.
+-
 - **Local storage**: Data stored in your browser to support faster access and improved functionality.
 
 These technologies follow the same consent principles as cookies.
@@ -79,7 +83,7 @@ You may disable all cookies through your browser settings. Doing so may impact t
 If you have questions about this Cookie Policy or wish to exercise any data protection rights related to cookie use, please contact Vertex FinCapital at:
 
 - Email: info@vertexfcapital.com
-- Address: vertexfcapital.com
+- Website: vertexfcapital.com
 
 ## **Complaints**
 

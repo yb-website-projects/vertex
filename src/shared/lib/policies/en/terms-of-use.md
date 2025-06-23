@@ -4,6 +4,17 @@ title: "Terms of Use"
 
 Welcome to the official website of Vertex FinCapital. Please read these Terms of Use carefully before using our website vertexfcapital.com. By accessing or using this site, you agree to be legally bound by these Terms and all applicable laws and regulations. Please refrain from using the website if you do not accept these Terms.
 
+**Vertex FinCapital** is a regulated alternative investment fund established in Singapore. The fund operates under the legal structure of a sub-fund within **XEQ Global Alternatives VCC**, a Variable Capital Company registered in Singapore under the Variable Capital Companies Act 2018.
+
+The fund is promoted by **YB Advisors Ltd.**, a corporate advisory firm supporting investor communications and strategic outreach.
+
+All references to “Vertex FinCapital,” “we,” “us,” or “our” in these Terms refer to the fund and its associated operations as managed within the XEQ Global Alternatives VCC structure.
+
+- **Company Name**: Vertex FinCapital
+- **Fund Structure**: Sub-fund of XEQ Global Alternatives VCC
+- **Registered Address**:76 Playfair Road, #06-01, Singapore 367996
+- **Registration Number**: T24VC0027F-SF002
+
 ## **Legal Access Restrictions**
 
 Vertex FinCapital operates under a regulated fund structure in Singapore. Access to this website and the information herein is subject to legal and regulatory restrictions. You are responsible for ensuring compliance with all laws and regulations applicable to your jurisdiction.

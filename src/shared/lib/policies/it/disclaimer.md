@@ -23,7 +23,15 @@ Our only official website is:
 
 Our verified emails originate from:
 
-**info@vertexfcapital.com**
+[**info@vertexfcapital.com**](mailto:info@vertexfcapital.com)
+
+Our registration address is:
+
+**76 Playfair Road, #06-01, Singapore 367996**
+
+Our registration number is:
+
+**T24VC0027F-SF002**
 
 We do **not** solicit investments through social media platforms, unregulated investment forums, or third-party promoters unaffiliated with the fund.
 
@@ -39,6 +47,6 @@ If you are unsure whether a communication, document, or website is legitimate, w
 If you would like to verify a person or entity’s connection to Vertex FinCapital or report a suspected fraud attempt, please contact:
 
 - Email: info@vertexfcapital.com
-- Phone:
+- Website: vertexfcapital.com
 
 For severe fraud cases or criminal conduct, you may also consider reporting the activity to your national financial supervisory authority or law enforcement agency.

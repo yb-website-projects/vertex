@@ -68,6 +68,7 @@
     "subtitle1Description": "Our team is available to respond to fund-related inquiries and direct requests. Please use the contact details below to connect with us.",
     "officeAddress": "Office Address:",
     "registrationAddress": "Registration Address:",
+    "registrationAddress1": "76 Playfair Road, #06-01, Singapore 367996",
     "subtitle2": "Send a Message",
     "subtitle2Description": "For direct inquiries or follow-up requests, please complete the form below and our team will respond promptly.",
     "subtitle3": "Let your capital do what it <br/>was meant to — create value."
@@ -558,8 +559,8 @@
       "link10": "Disclaimer"
     },
     "companyInfo": "A Regulated Fund Investing in High-Impact Opportunities.",
-    "registeredAddress": "Registered address:",
-    "registeredNumber": "Registered number:",
+    "registeredAddress": "Registered address: 76 Playfair Road, #06-01, Singapore 367996",
+    "registeredNumber": "Registration number: T24VC0027F-SF002",
     "officeAddress": "Office address:",
     "copyright": "Vertex FinCapital. All rights reserved. A sub-fund of XEQ Global Alternatives VCC, Singapore. Managed by XEQ Capital, licensed by the Monetary Authority of Singapore."
   },
@@ -571,6 +572,6 @@
     "menu": "Menu",
     "newsAndUpdates": "News & Updates",
     "legalAndCompliance": "Legal & Compliance",
-    "contactUs": "Contact Us"
+    "needAssistance": "Need Assistance?"
   }
 }

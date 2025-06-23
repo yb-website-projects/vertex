@@ -7,8 +7,6 @@ import { usePathname } from 'next/navigation';
 
 import { useTranslations } from 'next-intl';
 
-import { useFundAccessStore } from '@/features/fundAccessRequest/store/fundAccessStore';
-
 import { Burger, ChevronDown } from '@/shared/ui/icons';
 import { Button } from '@/shared/ui/kit';
 
@@ -19,19 +17,12 @@ export const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
 
-  const { open } = useFundAccessStore();
-
   const t = useTranslations('header');
 
   useEffect(() => {
     setIsMobileMenuOpen(false);
     setIsSubmenuOpen(false);
   }, [pathname]);
-
-  const handleContactUs = () => {
-    setIsMobileMenuOpen(false);
-    open();
-  };
 
   return (
     <>
@@ -92,7 +83,7 @@ export const Header = () => {
               </ul>
             </nav>
             <Button color="white" buttonType="link" url="/contact-us">
-              {t('contactUs', { fallback: 'Contact Us' })}
+              {t('needAssistance', { fallback: 'Need Assistance?' })}
             </Button>
           </div>
         </div>
@@ -142,8 +133,8 @@ export const Header = () => {
             </li>
           </ul>
         </nav>
-        <Button color="white" buttonType="button" onClick={() => handleContactUs()}>
-          {t('contactUs', { fallback: 'Contact Us' })}
+        <Button color="white" buttonType="link" url="/contact-us">
+          {t('needAssistance', { fallback: 'Need Assistance?' })}
         </Button>
       </div>
     </>

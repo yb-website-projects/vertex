@@ -73,7 +73,7 @@ export const FundAccessForm = () => {
       <div className={styles.inputWrapper}>
         <label>Website</label>
         {errors.website && <p className={styles.error}>{errors.website.message}</p>}
-        <input {...register('website')} placeholder="company" />
+        <input {...register('website')} placeholder="Your company website" />
       </div>
       <div className={styles.inputWrapper}>
         <label>Country</label>
@@ -100,7 +100,7 @@ export const FundAccessForm = () => {
           <input type="checkbox" {...register('consent')} />
           <span>
             I confirm that I am an accredited or professional investor and agree to be contacted in
-            accordance with the <Link href="/privacy-policy">Privacy Policy</Link>.
+            accordance with the <Link href="/legal/privacy-policy">Privacy Policy</Link>.
           </span>
         </label>
         {errors.consent && <p className={styles.error}>{errors.consent.message}</p>}

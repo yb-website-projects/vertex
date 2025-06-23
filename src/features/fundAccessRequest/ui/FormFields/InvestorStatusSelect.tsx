@@ -5,8 +5,9 @@ import { type FundAccessFormValues } from '../../schema/fundAccessSchema';
 import styles from '../FundAccessForm/FundAccessForm.module.scss';
 
 const investorOptions = [
-  { value: 'accredited', label: 'Accredited' },
-  { value: 'professional', label: 'Professional' },
+  { value: 'accredited-investor', label: 'Accredited Investor' },
+  { value: 'professional-investor', label: 'Professional Investor' },
+  { value: 'other', label: 'Other' },
 ];
 
 type InvestorOption = { value: string; label: string };
