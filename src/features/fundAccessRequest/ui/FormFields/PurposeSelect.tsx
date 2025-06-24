@@ -5,11 +5,11 @@ import { type FundAccessFormValues } from '../../schema/fundAccessSchema';
 import styles from '../FundAccessForm/FundAccessForm.module.scss';
 
 const purposeOptions = [
-  { value: 'request-fund-overview', label: 'Request Fund Overview' },
-  { value: 'request-participation-requirements', label: 'Request Participation Requirements' },
-  { value: 'request-access-conditions', label: 'Request Access Conditions' },
-  { value: 'submit-investment-interest', label: 'Submit Investment Interest' },
-  { value: 'ask-a-specific-question', label: 'Ask a Specific Question' },
+  { value: 'Request Fund Overview', label: 'Request Fund Overview' },
+  { value: 'Request Participation Requirements', label: 'Request Participation Requirements' },
+  { value: 'Request Access Conditions', label: 'Request Access Conditions' },
+  { value: 'Submit Investment Interest', label: 'Submit Investment Interest' },
+  { value: 'Ask a Specific Question', label: 'Ask a Specific Question' },
 ];
 
 type PurposeOption = { value: string; label: string };
