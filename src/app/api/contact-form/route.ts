@@ -22,7 +22,7 @@ export async function POST(request: Request): Promise<NextResponse> {
     const msg = {
       to: process.env.ADMIN_EMAIL!, // Your admin email address
       from: process.env.FROM_EMAIL!, // Verified sender email
-      subject: 'New Fund Access Request',
+      subject: 'New Contact form Request',
       html: `
         <h2>New Fund Access Request</h2>
         <p><strong>Name:</strong> ${firstName} ${lastName}</p>
