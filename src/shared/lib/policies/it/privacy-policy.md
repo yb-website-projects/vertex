@@ -19,7 +19,6 @@ This Privacy Policy applies to individuals whose PI is collected and processed i
 - participating in the fund as an investor, representative, or partner;
 - providing services to Vertex FinCapital; or
 - interacting with us during events, communications, or onboarding.
--
 
 This document outlines the purposes for which we collect, use, and disclose PI, the categories of PI we may process, and how we protect your data. It also outlines your rights under relevant privacy legislation.
 
@@ -36,7 +35,6 @@ We may collect and process the following categories of PI, depending on your int
 - **Interaction Data**: User preferences, history of communications, submitted forms or applications.
 - **Service and Contract Data**: Legal agreements, onboarding forms, compliance documents, subscription or redemption data.
 - **Sensitive Personal Information (SPI)**: Only when legally required or voluntarily disclosed, such as disability accommodations, politically exposed person (PEP) status, or dietary/religious information in the context of events.
--
 
 ## **How We Collect Personal Information**
 
@@ -99,7 +97,6 @@ We implement technical, administrative, and physical safeguards to protect your 
 - periodic external audits and vendor risk assessments,
 - disaster recovery and data backup mechanisms,
 - and layered threat detection and response capabilities.
--
 
 While we apply industry-standard security protections, no data transmission over the internet can be guaranteed to be entirely secure. We advise against sending sensitive personal information via unencrypted email or unsecured channels.
 

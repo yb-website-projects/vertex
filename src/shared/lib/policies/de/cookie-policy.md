@@ -99,7 +99,6 @@ Note: "Session" cookies expire once your browsing session ends, while others may
 We may use additional technologies such as:
 
 - **Web beacons / tracking pixels**: Small code snippets embedded in pages or emails to track actions such as opening a newsletter or clicking a link.
--
 - **Local storage**: Data stored in your browser to support faster access and improved functionality.
 
 These technologies follow the same consent principles as cookies.
