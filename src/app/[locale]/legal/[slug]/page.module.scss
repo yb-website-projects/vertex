@@ -1,7 +1,7 @@
 @import '@/shared/lib/styles/mixin.scss';
 
 .policy {
-  padding: 0 0 96px 0;
+  padding: 96px 0;
   background: #0c0c0c;
   @include tablet {
     padding: 40px 0;
@@ -34,24 +34,38 @@
     }
   }
 
+  &__title {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-bottom: 1px solid #242424;
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+    h1 {
+      color: #e79eff;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-align: center;
+      @media (max-width: 992px) {
+        font-size: 32px;
+      }
+    }
+    p {
+      color: #fff;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
   &__body {
     article {
-      padding: 96px 0;
-      @include tablet {
-        padding: 32px 0;
-      }
+      
       h1 {
-        color: #e79eff;
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        border-bottom: 1px solid #242424;
-        margin-bottom: 48px;
-        padding-bottom: 48px;
-        @media (max-width: 992px) {
-          font-size: 32px;
-        }
       }
       > div {
         h2 {
@@ -64,6 +78,67 @@
           &:first-child {
             margin-top: 0;
           }
+          b,
+          strong {
+            font-weight: 400;
+          }
+        }
+
+        a {
+          color: #b6b6b6;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-decoration-line: underline;
+          text-decoration-style: solid;
+          text-decoration-skip-ink: auto;
+          text-decoration-thickness: auto;
+          text-underline-offset: auto;
+          text-underline-position: from-font;
+          strong {
+            font-weight: 400;
+          }
+        }
+
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          border: 1px solid #242424;
+          th,
+          td {
+            border: 1px solid #242424;
+            padding: 20px;
+            color: #b6b6b6;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            vertical-align: top;
+            &:first-child {
+              width: 30%;
+            }
+            &:last-child {
+              width: 70%;
+            }
+            p {
+              margin: 0;
+            }
+            strong {
+              font-family: var(--font-lora), sans-serif;
+              color: #fff;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+        }
+
+        > div {
+          padding: 24px;
+          border: 1px solid #242424;
+          margin-top: 48px;
         }
 
         p {
@@ -73,14 +148,6 @@
           font-weight: 400;
           line-height: normal;
           margin-bottom: 20px;
-        }
-
-        a {
-          color: #fff;
-          text-decoration: none;
-          &:hover {
-            text-decoration: none;
-          }
         }
 
         ul {

@@ -1,5 +1,6 @@
 ---
 title: "Terms of Use"
+date: "[Insert Date]"
 ---
 
 Welcome to the official website of Vertex FinCapital. Please read these Terms of Use carefully before using our website vertexfcapital.com. By accessing or using this site, you agree to be legally bound by these Terms and all applicable laws and regulations. Please refrain from using the website if you do not accept these Terms.
@@ -66,4 +67,7 @@ For legal or website-related inquiries, please contact us at:
 - Email: info@vertexfcapital.com
 - Website: vertexfcapital.com
 
-**Risk Warning:** Capital is at risk. The value of your investment may fall as well as rise. You may not recover the amount originally invested. Changes in exchange rates may also affect the value of investments.
+<div>
+<h2>Risk Warning:</h2>
+<p>Capital is at risk. The value of your investment may fall as well as rise. You may not recover the amount originally invested. Changes in exchange rates may also affect the value of investments.</p>
+</div>

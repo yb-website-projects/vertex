@@ -1,5 +1,6 @@
 ---
 title: "Cookie Policy"
+date: "[Insert Date]"
 ---
 
 ## **Introduction**
@@ -21,29 +22,58 @@ Cookies are small text files placed on your browser or device when you visit a w
 
 ## **Types of Cookies We Use**
 
-**Type**
-
-**Description**
-
-**Strictly Necessary**
-
-These cookies are essential to the operation of our Website. They enable core features such as secure login, session integrity, and accessibility. Disabling them may impair basic functionality.
-
-**Preference**
-
-These cookies store your language, region, and user interface preferences to enhance user experience.
-
-**Statistical / Analytics**
-
-These cookies collect anonymized data about website usage, such as page visits, navigation paths, and interaction time. This helps us improve performance and usability. These are used only with your consent.
-
-**Marketing / Tracking**
-
-These cookies may be set by our advertising partners to build a profile of your interests and show you relevant content. They also help measure the effectiveness of marketing campaigns. These cookies require consent in Europe.
-
-**Conversational**
-
-Used when you interact with any chatbot, live support, or embedded helpdesk tool on our Website. These cookies must be accepted to enable interactive support features.
+<table>
+<tbody>
+<tr>
+<td>
+<p><strong>Type</strong></p>
+</td>
+<td>
+<p><strong>Description</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Strictly Necessary</strong></p>
+</td>
+<td>
+<p>These cookies are essential to the operation of our Website. They enable core features such as secure login, session integrity, and accessibility. Disabling them may impair basic functionality.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Preference</strong></p>
+</td>
+<td>
+<p>These cookies store your language, region, and user interface preferences to enhance user experience.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Statistical / Analytics</strong></p>
+</td>
+<td>
+<p>These cookies collect anonymized data about website usage, such as page visits, navigation paths, and interaction time. This helps us improve performance and usability. These are used only with your consent.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Marketing / Tracking</strong></p>
+</td>
+<td>
+<p>These cookies may be set by our advertising partners to build a profile of your interests and show you relevant content. They also help measure the effectiveness of marketing campaigns. These cookies require consent in Europe.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Conversational</strong></p>
+</td>
+<td>
+<p>Used when you interact with any chatbot, live support, or embedded helpdesk tool on our Website. These cookies must be accepted to enable interactive support features.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## **Consent and Managing Preferences**
 

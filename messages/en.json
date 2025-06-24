@@ -287,6 +287,9 @@
       "buttonText": "Request Access"
     }
   },
+  "policy": {
+    "date": "Last Revised:"
+  },
   "fundJurisdiction": {
     "item1": {
       "title": "Regulated Environment",

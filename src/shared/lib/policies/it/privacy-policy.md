@@ -1,5 +1,6 @@
 ---
 title: "Privacy Policy"
+date: "[Insert Date]"
 ---
 
 ## **Introduction**
@@ -121,7 +122,7 @@ If you act through an authorized representative, appropriate documentation, such
 
 Exercising your rights will not affect the service or treatment you receive from **Vertex FinCapital**. We will respond to all valid requests within the timeframe applicable data protection law requires.
 
-### **Contacting Us**
+## **Contacting Us**
 
 If you wish to exercise your rights or have any questions about this Privacy Policy or our data protection practices, please contact Vertex FinCapital at:
 

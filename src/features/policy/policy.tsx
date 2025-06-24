@@ -10,10 +10,10 @@ export async function getPage(slug: string, locale: string) {
   );
   const {
     content,
-    data: { title, date, shortDescription },
+    data: { title, date },
   } = matter(text);
   const body = marked(content);
-  return { slug, title, date, body, shortDescription };
+  return { slug, title, date, body };
 }
 
 export async function getPageSlugs(locale: string) {

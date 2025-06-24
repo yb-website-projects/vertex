@@ -1,5 +1,6 @@
 ---
 title: "Fraud Warning and Disclaimer"
+date: "[Insert Date]"
 ---
 
 ## **Fraudulent Communications and Impersonation Notices**
@@ -17,21 +18,13 @@ Vertex FinCapital, its fund manager **XEQ Capital**, and its promoter **YB Advis
 
 ## **How to Identify Legitimate Communications**
 
-Our only official website is:
+**Our only official website is:** [VertexFCapital.com](http://vertexfcapital.com)
 
-[**VertexFCapital.com**](http://vertexfcapital.com)
+**Our verified emails originate from:** [info@vertexfcapital.com](mailto:info@vertexfcapital.com)
 
-Our verified emails originate from:
+**Our registration address is:** 76 Playfair Road, #06-01, Singapore 367996
 
-[**info@vertexfcapital.com**](mailto:info@vertexfcapital.com)
-
-Our registration address is:
-
-**76 Playfair Road, #06-01, Singapore 367996**
-
-Our registration number is:
-
-**T24VC0027F-SF002**
+**Our registration number is:** T24VC0027F-SF002
 
 We do **not** solicit investments through social media platforms, unregulated investment forums, or third-party promoters unaffiliated with the fund.
 

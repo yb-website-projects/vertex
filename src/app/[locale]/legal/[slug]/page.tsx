@@ -1,6 +1,7 @@
 import React from 'react';
 
 import type { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
 
 import { getPage, getPageSlugs } from '@/features/policy/policy';
 
@@ -48,13 +49,19 @@ export default async function PolicyPage({
   const awaitedParams = await params;
   const { locale, slug } = awaitedParams;
   const page = await getPage(slug, locale);
+  const t = await getTranslations('policy');
   return (
     <>
       <section className={st.policy}>
         <div className="_container">
           <div className={st.policy__body}>
-            <article className={st.policy__content}>
+            <div className={st.policy__title}>
               <h1>{page.title}</h1>
+              <p>
+                {t('date', { fallback: 'Last Revised:' })} {page.date}
+              </p>
+            </div>
+            <article className={st.policy__content}>
               <div dangerouslySetInnerHTML={{ __html: page.body }} />
             </article>
           </div>
