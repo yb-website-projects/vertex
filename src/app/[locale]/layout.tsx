@@ -44,11 +44,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: {
       template: '%s | Vertex FinCapital',
-      default: 'Regulated Investment Fund',
+      default: 'Regulated Investment Fund | Vertex FinCapital',
     },
     description:
       'Explore Vertex FinCapital, a MAS-regulated investment fund structured under Singapore VCC. Learn how we provide exclusive access to private equity, credit, real estate, and venture capital with strong institutional oversight and tailored investor solutions.',
-    images: 'https://vertexfincapital.com/images/meta.png',
+    images: 'https://vertexfcapital.com/images/meta.png',
   },
 };
 

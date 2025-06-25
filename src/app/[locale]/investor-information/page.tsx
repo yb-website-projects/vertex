@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: 'Investor Information & Reporting',
     description:
       'Access essential documents, reporting standards, subscription terms, and updates relevant to current and prospective investors of Vertex FinCapital.',
-    images: 'https://vertexfincapital.com/images/meta.png',
+    images: 'https://vertexfcapital.com/images/meta.png',
   },
 };
 

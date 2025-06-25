@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: 'Investment Strategy and Asset Focus',
     description:
       'Explore how Vertex FinCapital targets private market opportunities with a disciplined strategy across real estate, private equity, credit, and venture capital.',
-    images: 'https://vertexfincapital.com/images/meta.png',
+    images: 'https://vertexfcapital.com/images/meta.png',
   },
 };
 
