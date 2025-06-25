@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'Fund News and Market Updates',
     description:
       'Stay informed with the latest fund announcements, regulatory updates, and market developments from Vertex FinCapital.',
-    //images: 'https://vertexfincapital.com/images/meta.png',
+    images: 'https://vertexfincapital.com/images/meta.png',
   },
 };
 

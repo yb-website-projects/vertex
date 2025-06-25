@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: 'Legal and Compliance Framework',
     description:
       'Explore the regulatory framework, fund compliance policies, and legal structure supporting Vertex FinCapital’s secure and transparent operations.',
-    //images: 'https://vertexfincapital.com/images/meta.png',
+    images: 'https://vertexfincapital.com/images/meta.png',
   },
 };
 

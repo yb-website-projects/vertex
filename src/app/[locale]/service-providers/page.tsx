@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: 'Key Fund Service Providers',
     description:
       'Explore the trusted banks, custodians, legal advisors, auditors, and administrators working with Vertex FinCapital to ensure operational transparency, regulatory compliance, and institutional-grade support.',
-    //images: 'https://vertexfincapital.com/images/meta.png',
+    images: 'https://vertexfincapital.com/images/meta.png',
   },
 };
 
