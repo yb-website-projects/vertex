@@ -18,6 +18,7 @@ export const HomeLast = () => {
 
   const handleContactUs = () => {
     open();
+    document.body.style.overflow = 'hidden';
   };
 
   return (

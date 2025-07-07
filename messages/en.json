@@ -13,11 +13,11 @@
       "description": "Investors receive the first 12% p.a. of returns. Only after this threshold is met does the fund share in profits, ensuring investor-first economics at the structural level"
     },
     "slide4": {
-      "title": "Fee Discipline <br/>and Alignment",
+      "title": "Fee Discipline and Alignment",
       "description": "The fund applies a flat 2% management fee (covering all operating expenses) and performance fees only apply above a 12% return, ensuring investor-aligned incentives."
     },
     "slide5": {
-      "title": "Selective <br/>Participation",
+      "title": "Selective Participation",
       "description": "The investor base is intentionally capped at 20–30 parties to preserve deal quality and access discipline."
     },
     "title": "Why Vertex FinCapital"
@@ -33,17 +33,17 @@
   },
   "homeSecond": {
     "slide1": {
+      "title": "Vertex FinCapital is a MAS-regulated investment fund structured under Singapore’s XEQ Global Alternatives VCC.",
       "text1": "The fund offers accredited investors access to private market opportunities across real estate, private equity, credit, venture capital, and public equities.",
       "text2": "Combining institutional governance with boutique agility, the fund serves as a core alternative allocation for sophisticated portfolios.",
-      "title": "Vertex FinCapital is a MAS-regulated investment fund structured under Singapore’s XEQ Global Alternatives VCC.",
       "button": "Explore the Fund"
     },
     "slide2": {
+      "title": "Our key <br/>investment focus",
       "text1": "Real estate (equity or structured debt in development-stage projects)",
       "text2": "Private equity (payments, proptech, scalable B2B platforms)",
       "text3": "Secured private credit (with collateral and oversight)",
-      "text4": "Public small-cap equities (value-oriented with near-term catalysts)",
-      "title": "Our key <br/>investment focus"
+      "text4": "Public small-cap equities (value-oriented with near-term catalysts)"
     }
   },
   "homeThird": {

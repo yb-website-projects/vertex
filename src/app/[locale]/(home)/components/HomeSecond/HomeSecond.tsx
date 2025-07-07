@@ -47,6 +47,14 @@ export const HomeSecond = () => {
                 <div className={styles.left}>
                   <div>
                     <span className={styles.number}>1</span>
+                    <h3>
+                      {t('slide1.title', {
+                        fallback:
+                          'Vertex FinCapital is a MAS-regulated investment fund structured under Singapore’s XEQ Global Alternatives VCC.',
+                      })}
+                    </h3>
+                  </div>
+                  <div>
                     <p>
                       {t('slide1.text1', {
                         fallback:
@@ -59,14 +67,6 @@ export const HomeSecond = () => {
                           'Combining institutional governance with boutique agility, the fund serves as a core alternative allocation for sophisticated portfolios.',
                       })}
                     </p>
-                  </div>
-                  <div>
-                    <h3>
-                      {t('slide1.title', {
-                        fallback:
-                          'Vertex FinCapital is a MAS-regulated investment fund structured under Singapore’s XEQ Global Alternatives VCC.',
-                      })}
-                    </h3>
                     <Button buttonType="link" url="/the-fund" arrow color="white">
                       {t('slide1.button', {
                         fallback: 'Explore the Fund',
@@ -97,6 +97,15 @@ export const HomeSecond = () => {
                 <div className={styles.left}>
                   <div>
                     <span className={styles.number}>2</span>
+                    <h2
+                      dangerouslySetInnerHTML={{
+                        __html: t('slide2.title', {
+                          fallback: 'Our key <br/>investment focus',
+                        }),
+                      }}
+                    />
+                  </div>
+                  <div>
                     <ul>
                       <li>
                         {t('slide2.text1', {
@@ -127,15 +136,6 @@ export const HomeSecond = () => {
                         })}
                       </li>
                     </ul>
-                  </div>
-                  <div>
-                    <h2
-                      dangerouslySetInnerHTML={{
-                        __html: t('slide2.title', {
-                          fallback: 'Our key <br/>investment focus',
-                        }),
-                      }}
-                    />
                     <Button buttonType="link" url="/the-fund" arrow color="white">
                       {t('slide1.button', {
                         fallback: 'Explore the Fund',

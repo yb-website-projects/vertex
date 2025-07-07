@@ -54,7 +54,7 @@ export const HomeFourth = () => {
     },
     {
       title: t('slide4.title', {
-        fallback: 'Fee Discipline <br/>and Alignment',
+        fallback: 'Fee Discipline and Alignment',
       }),
       description: t('slide4.description', {
         fallback:
@@ -64,7 +64,7 @@ export const HomeFourth = () => {
     },
     {
       title: t('slide5.title', {
-        fallback: 'Selective <br/>Participation',
+        fallback: 'Selective Participation',
       }),
       description: t('slide5.description', {
         fallback:

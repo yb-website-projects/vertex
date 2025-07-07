@@ -17,6 +17,7 @@ export const FundAccessModal = () => {
     close();
     setTimeout(() => {
       setIsSuccess(false);
+      document.body.style.overflow = 'auto';
     }, 500);
   };
 

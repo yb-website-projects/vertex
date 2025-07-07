@@ -53,6 +53,7 @@
         display: flex;
         flex-direction: column;
         gap: 24px;
+        margin-bottom: 24px;
         li {
           color: #fff;
           font-size: 16px;
@@ -69,7 +70,7 @@
             width: 10px;
             height: 7px;
             display: block;
-            background-image: url('/images/home/list.svg');
+            background-image: url('/images/home/list-white.svg');
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
