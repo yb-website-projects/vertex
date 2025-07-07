@@ -60,7 +60,7 @@ export const ServicePartners = () => {
                 viewport={{ once: true }}
                 variants={fadeInUp}
               >
-                {t('title', { fallback: 'Service Partners' })}
+                {t('title', { fallback: 'Our Service Partners' })}
               </motion.h2>
               <motion.p
                 initial="hidden"

@@ -477,7 +477,7 @@
     "description": "Expert views on markets, capital, and innovation."
   },
   "servicePartners": {
-    "title": "Service Partners",
+    "title": "Our Service Partners",
     "description": "Vertex FinCapital works with a select group of established service providers, each fulfilling a critical role in the fund’s legal, operational, and regulatory infrastructure. From administration and custody to audit, compliance, and tax advisory, these partners ensure that every aspect of the fund operates with institutional precision and transparency."
   },
   "serviceProvidersHero": {
@@ -531,8 +531,8 @@
   "teamRepresentatives": {
     "title1": "Ai Teng",
     "text1_1": "Represents XEQ Capital. Specializes in multi-asset portfolio design and macroeconomic research.",
-    "text1_2": "Formerly held senior roles at AIA, Phillip Capital, and Prudential. Brings disciplined execution and conservative capital allocation expertise.",
-    "title2": "Baruch Ilevich",
+    "text1_2": "Experienced at AIA, Phillip Capital, and Prudential. Brings disciplined execution and conservative capital allocation expertise.",
+    "title2": "Boris Yelevich",
     "text2_1": "Represents YB Advisors. CPA (Israel) with 15+ years in cross-border fund structuring, tax strategy, and investor relations.",
     "text2_2": "Active across Europe and Israel, with strong integration of digital finance systems.",
     "title": "Team Representatives"

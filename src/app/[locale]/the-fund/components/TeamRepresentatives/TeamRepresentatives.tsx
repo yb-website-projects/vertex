@@ -19,11 +19,11 @@ export const TeamRepresentatives = () => {
       }),
       text2: t('text1_2', {
         fallback:
-          'Formerly held senior roles at AIA, Phillip Capital, and Prudential. Brings disciplined execution and conservative capital allocation expertise.',
+          'Experienced at AIA, Phillip Capital, and Prudential. Brings disciplined execution and conservative capital allocation expertise.',
       }),
     },
     {
-      title: t('title2', { fallback: 'Baruch Ilevich' }),
+      title: t('title2', { fallback: 'Boris Yelevich' }),
       text1: t('text2_1', {
         fallback:
           'Represents YB Advisors. CPA (Israel) with 15+ years in cross-border fund structuring, tax strategy, and investor relations.',
