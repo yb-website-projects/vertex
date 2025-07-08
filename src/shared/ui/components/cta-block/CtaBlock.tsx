@@ -22,6 +22,7 @@ export const CtaBlock = ({
 
   const handleContactUs = () => {
     open();
+    document.body.style.overflow = 'hidden';
   };
 
   return (

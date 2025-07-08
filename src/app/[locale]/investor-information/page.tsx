@@ -4,6 +4,8 @@ import { getTranslations } from 'next-intl/server';
 import { CtaBlock } from '@/shared/ui/components';
 
 import {
+  HaveQuestion,
+  InvestorAccess,
   InvestorHero,
   LiquidityRedemption,
   ReportingCommunication,
@@ -30,6 +32,8 @@ export default async function InvestorInformation() {
     <div>
       <InvestorHero />
       <WhoCanInvest />
+      <InvestorAccess />
+      <HaveQuestion />
       <SubscriptionProcess />
       <LiquidityRedemption />
       <ReportingCommunication />

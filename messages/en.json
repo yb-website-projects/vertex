@@ -184,6 +184,19 @@
     "note1": "Portfolio Rebalancing: ",
     "note2": "Adjustments occur quarterly or as needed, ensuring no single asset class exceeds 50% of NAV."
   },
+  "haveQuestion": {
+    "cta": {
+      "title": "Have questions?",
+      "buttonText": "Contact Us"
+    }
+  },
+  "investorAccess": {
+    "title": "Investor Access & Inquiry",
+    "description": "Vertex FinCapital works exclusively with accredited investors. To request documentation or discuss participation, please submit the form below. All submissions are reviewed individually by the fund’s management team.",
+    "cta": {
+      "buttonText": "Request Access"
+    }
+  },
   "investorHero": {
     "title": "Investor Information",
     "description": "Eligibility Criteria. Subscription Process. Transparent Reporting."
@@ -274,11 +287,7 @@
       "text": "USD 200,000 minimum subscription amount."
     },
     "title": "Who Can Invest",
-    "text": "Vertex FinCapital is open to a limited number of qualified participants. We welcome <br/>accredited investors who meet the following conditions:",
-    "cta": {
-      "title": "Have questions?",
-      "buttonText": "Contact Us"
-    }
+    "text": "Vertex FinCapital is open to a limited number of qualified participants. We welcome <br/>accredited investors who meet the following conditions:"
   },
   "investorInformation": {
     "cta": {
