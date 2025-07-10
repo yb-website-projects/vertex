@@ -12,7 +12,7 @@ export const TeamRepresentatives = () => {
 
   const teamRepresentatives = [
     {
-      title: t('title1', { fallback: 'Ai Teng' }),
+      title: t('title1', { fallback: 'Sai Teng' }),
       text1: t('text1_1', {
         fallback:
           'Represents XEQ Capital. Specializes in multi-asset portfolio design and macroeconomic research.',
