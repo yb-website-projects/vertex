@@ -1,5 +1,6 @@
 import { Inter, Lora } from 'next/font/google';
 
+import { GoogleAnalytics } from '@next/third-parties/google';
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 
@@ -63,6 +64,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
+      <GoogleAnalytics gaId="G-NGRM19H7P2" />
       <body className={`${lora.variable} ${inter.variable}`}>
         <NextIntlClientProvider>
           <Header />
