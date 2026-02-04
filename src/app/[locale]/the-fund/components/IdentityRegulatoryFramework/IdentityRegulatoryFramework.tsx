@@ -40,7 +40,7 @@ export const IdentityRegulatoryFramework = () => {
                 dangerouslySetInnerHTML={{
                   __html: t('item1.description', {
                     fallback:
-                      'Vertex is a Singapore-domiciled, open-ended fund, which is managed by Vertex FinCapital Pte. Ltd. (“Vertex”), a Singapore-registered fund manager.',
+                      'Vertex is a Singapore-domiciled, open-ended fund, which is managed by XEQ Capital Pte., a Singapore-registered fund manager.',
                   }),
                 }}
               />
